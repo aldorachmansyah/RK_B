@@ -75,13 +75,13 @@
 				<a href="Jadwal_Service.php"><div class="col-md-4 daftar ">
 					<div class="putih" style="height: 100px">
 						<!-- <img src=""> -->
-						<p class="font2" style="padding-top: 10px">Jadwal Service Kendaraan</p>
+						<p class="font2" style="padding-top: 20px">Jadwal Service Kendaraan</p>
 					</div>
 				</div></a>
 				<a href="jadwal_rekap_kendaraan.php"><div class="col-md-4 daftar ">
 					<div class="putih" style="height: 100px">
 						<!-- <img src=""> -->
-						<p class="font2" style="padding-top: 10px">Jadwal Rekap Kendaraan</p>
+						<p class="font2" style="padding-top: 20px">Jadwal Rekap Kendaraan</p>
 					</div>
 				</div></a>
 				<a href="notifikasi.php"><div class="col-md-4 daftar ">
