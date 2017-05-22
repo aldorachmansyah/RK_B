@@ -6,13 +6,54 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<style>
+		/* Add a black background color to the top navigation */
+		.topnav {
+		    background-color: #474747;
+		    overflow: hidden;
+		    opacity: 0.9;
+		}
+
+		/* Style the links inside the navigation bar */
+		.topnav a {
+		    float: left;
+		    display: block;
+		    color: white;
+		    text-align: center;
+		    padding: 14px 16px;
+		    text-decoration: none;
+		    font-size: 17px;
+		}
+
+		/* Change the color of links on hover */
+		.topnav a:hover {
+		    background-color: yellow;
+		    color: black;
+		}
+
+		/* Add a color to the active/current link */
+		.topnav a.active {
+		    background-color: #4CAF50;
+		    color: white;
+		}
+	</style>
 </head>
-<body> 
-	<div class="container-fluid">
+<body>
+
+	<div class="topnav" id="myTopnav">
+	  <a href="#home">Home</a>
+	  <a href="#news">News</a>
+	  <a href="#contact">Contact</a>
+	  <a href="#about">About</a>
+	  <a href="#about" style="margin-left: 850px">Logout</a>
+	</div>
+
+	<!-- <div class="container-fluid">
 		<div class="navbar">
 			<a href="index.html" class="logo font1"><b class="font2">ForRent</a>
 		</div>
-	</div><!-- /.container-fluid -->
+	</div><!-- /.container-fluid --> -->
 
 
 	<div class="col-md-12 badan">
