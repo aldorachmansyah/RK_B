@@ -160,8 +160,9 @@ input:focus{
 }
 
 .putih{
-	#background-color: #000000;
+	background-color: #ffffff;
 	padding: 2% 2%;
+	opacity: 0.75;
 }
 
 .judul2{
