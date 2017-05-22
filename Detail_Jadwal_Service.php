@@ -73,6 +73,7 @@
 					<th style="text-align: center;">Muatan (orang)</th>
 					<th style="text-align: center;">Driver</th>
 					<th style="text-align: center;">Harga Sewa (per hari)</th>
+					<th style="text-align: center;">Status</th>
 					<th style="text-align: center;width: 130px">#</th>
 				</tr>
 			</thead>
@@ -84,6 +85,7 @@
 					<td>5</td>
 					<td>Ario Bimo</td>
 					<td>250000</td>
+					<td style="background-color: #65f442;"><font color="white">Ready</font></td>
 					<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
 				</tr>
 			</tbody>
@@ -95,6 +97,7 @@
 					<td>4</td>
 					<td>Bimo Ario</td>
 					<td>250000</td>
+					<td style="background-color: #65f442;"><font color="white">Ready</font></td>
 					<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
 				</tr>
 			</tbody>
@@ -106,6 +109,7 @@
 					<td>6</td>
 					<td>Sumila</td>
 					<td>350000</td>
+					<td style="background-color:#b75f12"><font color="white">On Service</font></td>
 					<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
 				</tr>
 			</tbody>
@@ -117,6 +121,7 @@
 					<td>7</td>
 					<td>Faizul</td>
 					<td>400000</td>
+					<td style="background-color: #ff3535;"><font color="white">Booked</font></td>
 					<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
 				</tr>
 			</tbody>
@@ -128,6 +133,7 @@
 					<td>4</td>
 					<td>Sina</td>
 					<td>280000</td>
+					<td style="background-color: #f7933b;"><font color="white">Not Ready</font></td>
 					<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
 				</tr>
 			</tbody>
