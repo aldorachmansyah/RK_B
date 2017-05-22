@@ -33,19 +33,19 @@
 						<p class="font2">Jadwal Service Kendaraan</p>
 					</div>
 				</div></a>
-				<a href=""><div class="col-md-4 daftar ">
+				<a href="jadwal_rekap_kendaraan.php"><div class="col-md-4 daftar ">
 					<div class="putih">
 						<img src="">
 						<p class="font2">Jadwal Rekap Kendaraan</p>
 					</div>
 				</div></a>
-				<a href=""><div class="col-md-4 daftar ">
+				<a href="notifikasi.php"><div class="col-md-4 daftar ">
 					<div class="putih">
 						<img src="">
 						<p class="font2">Notifikasi</p>
 					</div>
 				</div></a>
-				<a href=""><div class="col-md-4 daftar ">
+				<a href="penyewaan.php"><div class="col-md-4 daftar ">
 					<div class="putih">
 						<img src="">
 						<p class="font2">Penyewaan</p>
