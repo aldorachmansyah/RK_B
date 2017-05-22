@@ -27,7 +27,7 @@
 						<p class="font2">Status Kendaraan</p>
 					</div>
 				</div></a>
-				<a href=""><div class="col-md-4 daftar ">
+				<a href="Jadwal_Service.php"><div class="col-md-4 daftar ">
 					<div class="putih">
 						<img src="">
 						<p class="font2">Jadwal Service Kendaraan</p>

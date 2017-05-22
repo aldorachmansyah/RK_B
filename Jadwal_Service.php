@@ -45,8 +45,8 @@
 				<input type="text" class="form-control" placeholder="Search">
 			</div>
 		</form>
-		<ul class="nav menu">
-			<li><a href="Kendaraan_Driver1.php"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-table"></use></svg> Daftar Armada</a></li>
+		<ul class="nav menu"> 
+			<li><a href="#"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-dashboard-dial"></use></svg>Jadwal Service</a></li>
 			<li role="presentation" class="divider"></li>
 
 		</ul>
@@ -57,7 +57,7 @@
 		<div class="row">
 			<ol class="breadcrumb">
 				<li><a href="home.php"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
-				<li class="active">Daftar Kendaraan + Driver</li>
+				<li class="active">Jadwal Service</li>
 			</ol>
 		</div><!--/.row-->
 		
