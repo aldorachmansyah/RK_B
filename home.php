@@ -15,43 +15,42 @@
 		<div class="col-md-2"></div>
 		<div class="col-md-8">
 			<div class="col-md-12 center">
-				<a href="menu.php"><div class="col-md-4 daftar ">
+				<a href="Kendaraan_Driver.php"><div class="col-md-4 daftar ">
 					<div class="putih">
 						<img src="">
-						<p class="font2">Menu a</p>
+						<p class="font2">Daftar Kendaraan & Driver</p>
 					</div>
-				</a>
-				</div>
-				<div class="col-md-4 daftar ">
+				</div></a>
+				<a href="Status_Kendaraan.php"><div class="col-md-4 daftar ">
 					<div class="putih">
 						<img src="">
-						<p class="font2">Menu b</p>
+						<p class="font2">Status Kendaraan</p>
 					</div>
-				</div>
-				<div class="col-md-4 daftar ">
+				</div></a>
+				<a href=""><div class="col-md-4 daftar ">
 					<div class="putih">
 						<img src="">
-						<p class="font2">Menu c</p>
+						<p class="font2">Jadwal Service Kendaraan</p>
 					</div>
-				</div>
-				<div class="col-md-4 daftar ">
+				</div></a>
+				<a href=""><div class="col-md-4 daftar ">
 					<div class="putih">
 						<img src="">
-						<p class="font2">Menu d</p>
+						<p class="font2">Jadwal Rekap Kendaraan</p>
 					</div>
-				</div>
-				<div class="col-md-4 daftar ">
+				</div></a>
+				<a href=""><div class="col-md-4 daftar ">
 					<div class="putih">
 						<img src="">
-						<p class="font2">Menu e</p>
+						<p class="font2">Notifikasi</p>
 					</div>
-				</div>
-				<div class="col-md-4 daftar ">
+				</div></a>
+				<a href=""><div class="col-md-4 daftar ">
 					<div class="putih">
 						<img src="">
-						<p class="font2">Menu f</p>
+						<p class="font2">Penyewaan</p>
 					</div>
-				</div>
+				</div></a>
 			</div>
 		</div>
 	</div>

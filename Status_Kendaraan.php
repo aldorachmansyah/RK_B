@@ -46,12 +46,7 @@
 			</div>
 		</form>
 		<ul class="nav menu">
-			<li><a href="menu_1.php"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-table"></use></svg> Daftar Armada</a></li>
 			<li><a href="index.html"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-dashboard-dial"></use></svg> Status Kendaraan</a></li>
-			<li><a href="index.html"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-calendar"></use></svg> Jadwal Servis</a></li>
-			<li><a href="index.html"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-pencil"></use></svg> Rekapitulasi</a></li>
-			<li><a href="index.html"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-star"></use></svg> Notifikasi</a></li>
-			<li><a href="index.html"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-app-window"></use></svg> Penyewaan</a></li> 
 			<li role="presentation" class="divider"></li>
 
 		</ul>
