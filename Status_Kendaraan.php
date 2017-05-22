@@ -40,13 +40,8 @@
 	</nav>
 		
 	<div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
-		<form role="search">
-			<div class="form-group">
-				<input type="text" class="form-control" placeholder="Search">
-			</div>
-		</form>
-		<ul class="nav menu"> 
-			<li><a href="Detail_Status_Kendaraan.php"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-dashboard-dial"></use></svg>Status Kendaraan</a></li>
+		<ul class="nav menu">
+			<li class="active"><a href="Status_Kendaraan.php"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-table"></use></svg> Status Kendaraan</a></li>
 			<li role="presentation" class="divider"></li>
 
 		</ul>
@@ -56,8 +51,9 @@
 	<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">			
 		<div class="row">
 			<ol class="breadcrumb">
-				<li><a href="home.php"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
+				<li><a href="Status_Kendaraan.php"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
 				<li class="active">Status Kendaraan</li>
+				<li class="active">Detail</li>
 			</ol>
 		</div><!--/.row-->
 		
@@ -66,12 +62,83 @@
 				<h1 class="page-header">Dashboard</h1>
 			</div>
 		</div>-->
-		<div style="text-align: center;">
-			<h1>Selamat Datang</h1>
-			<h2>Sistem Informasi Peminjaman Mobil</h2>
-			<h1>ForRent</h1>
-		</div>
+		<h1></h1>
 
+		<table border="1" style="border-collapse: collapse;width: 100%;">
+			<thead>
+				<tr style="background: #C9C9C9;">
+					<th style="text-align: center;padding: 8px">Nopol</th>
+					<th style="text-align: center;">Merk</th>
+					<th style="text-align: center;">Jenis</th>
+					<th style="text-align: center;">Muatan (orang)</th>
+					<th style="text-align: center;">Driver</th>
+					<th style="text-align: center;">Harga Sewa (per hari)</th>
+					<th style="text-align: center;">Status</th>
+					<th style="text-align: center;width: 130px">#</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr style="text-align: center;">
+					<td>B 510 NDA</td>
+					<td>Kia</td>
+					<td>Rio</td>
+					<td>5</td>
+					<td>Ario Bimo</td>
+					<td>250000</td>
+					<td style="background-color: #65f442;"><font color="white">Ready</font></td>
+					<td style="padding: 3px;"><a style="color: black" href="ubah_status_service.php"><button>Ubah</button></a></td>
+				</tr>
+			</tbody>
+			<tbody>
+				<tr style="text-align: center;">
+					<td>B 4707 BAN</td>
+					<td>Honda</td>
+					<td>City</td>
+					<td>4</td>
+					<td>Bimo Ario</td>
+					<td>250000</td>
+					<td style="background-color: #65f442;"><font color="white">Ready</font></td>
+					<td style="padding: 3px;"><a style="color: black" href="ubah_status_service.php"><button>Ubah</button></a></td>
+				</tr>
+			</tbody>
+			<tbody>
+				<tr style="text-align: center;">
+					<td>L 1712 KL</td>
+					<td>Suzuki</td>
+					<td>Ertiga</td>
+					<td>6</td>
+					<td>Sumila</td>
+					<td>350000</td>
+					<td style="background-color:#b75f12"><font color="white">On Service</font></td>
+					<td style="padding: 3px;"><a style="color: black" href="ubah_status_service.php"><button>Ubah</button></a></td>
+				</tr>
+			</tbody>
+			<tbody>
+				<tr style="text-align: center;">
+					<td>D 123 VE</td>
+					<td>Toyota</td>
+					<td>Innova</td>
+					<td>7</td>
+					<td>Faizul</td>
+					<td>400000</td>
+					<td style="background-color: #ff3535;"><font color="white">Booked</font></td>
+					<td style="padding: 3px;"><a style="color: black" href="ubah_status_service.php"><button>Ubah</button></a></td>
+				</tr>
+			</tbody>
+			<tbody>
+				<tr style="text-align: center;">
+					<td>W 120 SI</td>
+					<td>Toyota</td>
+					<td>Agya</td>
+				
+					<td>4</td>
+					<td>Sina</td>
+					<td>280000</td>
+					<td style="background-color: #f7933b;"><font color="white">Not Ready</font></td>
+					<td style="padding: 3px;"><a style="color: black" href="ubah_status_service.php"><button>Ubah</button></a></td>
+				</tr>
+			</tbody>
+		</table>
 	</div>	<!--/.main-->
 
 	<script src="js/jquery-1.11.1.min.js"></script>
