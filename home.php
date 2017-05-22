@@ -21,38 +21,38 @@
 			<div class="col-md-12 center" style="margin-top: 216px">
 				<a href="Kendaraan_Driver.php"><div class="col-md-4 daftar ">
 					<div class="putih" style="height: 100px">
-						<img src="">
-						<p class="font2">Daftar Kendaraan & Driver</p>
+						<!-- <img src=""> -->
+						<p class="font2" style="padding-top: 10px">Daftar Kendaraan & Driver</p>
 					</div>
 				</div></a>
 				<a href="Status_Kendaraan.php"><div class="col-md-4 daftar ">
 					<div class="putih" style="height: 100px">
-						<img src="">
-						<p class="font2">Status Kendaraan</p>
+						<!-- <img src=""> -->
+						<p class="font2" style="padding-top: 20px">Status Kendaraan</p>
 					</div>
 				</div></a>
 				<a href="Jadwal_Service.php"><div class="col-md-4 daftar ">
 					<div class="putih" style="height: 100px">
-						<img src="">
-						<p class="font2">Jadwal Service Kendaraan</p>
+						<!-- <img src=""> -->
+						<p class="font2" style="padding-top: 10px">Jadwal Service Kendaraan</p>
 					</div>
 				</div></a>
 				<a href="jadwal_rekap_kendaraan.php"><div class="col-md-4 daftar ">
 					<div class="putih" style="height: 100px">
-						<img src="">
-						<p class="font2">Jadwal Rekap Kendaraan</p>
+						<!-- <img src=""> -->
+						<p class="font2" style="padding-top: 10px">Jadwal Rekap Kendaraan</p>
 					</div>
 				</div></a>
 				<a href="notifikasi.php"><div class="col-md-4 daftar ">
 					<div class="putih" style="height: 100px">
-						<img src="">
-						<p class="font2">Notifikasi</p>
+						<!-- <img src=""> -->
+						<p class="font2" style="padding-top: 20px">Notifikasi</p>
 					</div>
 				</div></a>
 				<a href="penyewaan.php"><div class="col-md-4 daftar ">
 					<div class="putih" style="height: 100px">
-						<img src="">
-						<p class="font2">Penyewaan</p>
+						<!-- <img src=""> -->
+						<p class="font2" style="padding-top: 20px">Penyewaan</p>
 					</div>
 				</div></a>
 			</div>
