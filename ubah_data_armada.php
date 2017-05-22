@@ -40,20 +40,9 @@
 	</nav>
 		
 	<div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
-		<form role="search">
-			<div class="form-group">
-				<input type="text" class="form-control" placeholder="Search">
-			</div>
-		</form>
 		<ul class="nav menu">
-			<li class="active"><a href="index.html"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-table"></use></svg> Daftar Armada</a></li>
-			<li><a href="index.html"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-dashboard-dial"></use></svg> Status Kendaraan</a></li>
-			<li><a href="index.html"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-calendar"></use></svg> Jadwal Servis</a></li>
-			<li><a href="index.html"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-pencil"></use></svg> Rekapitulasi</a></li>
-			<li><a href="index.html"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-star"></use></svg> Notifikasi</a></li>
-			<li><a href="index.html"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-app-window"></use></svg> Penyewaan</a></li> 
+			<li class="active"><a href="Kendaraan_Driver1.php"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-table"></use></svg> Daftar Armada</a></li>
 			<li role="presentation" class="divider"></li>
-
 		</ul>
 
 	</div><!--/.sidebar-->
@@ -61,7 +50,7 @@
 	<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">			
 		<div class="row">
 			<ol class="breadcrumb">
-				<li><a href="#"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
+				<li><a href="Kendaraan_Driver.php"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
 				<li class="active">Daftar Kendaraan + Driver</li>
 			</ol>
 		</div><!--/.row-->
@@ -77,30 +66,30 @@
 	        <table>
 	          <tr>
 	            <td>Nopol</td>
-	            <td style="padding: 10px"><input type="text" name="judul" style="width: 300px" value="   (data)"></td>
+	            <td style="padding: 10px"><input type="text" name="judul" style="width: 300px" value=""></td>
 	          </tr>
 	          <tr>
 	            <td>Merk Kendaraan</td>
-	            <td style="padding: 10px"><input type="text" name="edisi" style="width: 300px" value="   (data)"></td>
+	            <td style="padding: 10px"><input type="text" name="edisi" style="width: 300px" value=""></td>
 	          </tr>
 	          <tr>
 	            <td>Jenis Kendaraan</td>
-	            <td style="padding: 10px"><input type="text" name="pengarang" style="width: 300px" value="   (data)"></td>
+	            <td style="padding: 10px"><input type="text" name="pengarang" style="width: 300px" value=""></td>
 	          </tr>
 	          <tr>
 	            <td>Total Muatan (orang)</td>
-	            <td style="padding: 10px"><input type="text" name="kategori" style="width: 300px" value="   (data)"></td>
+	            <td style="padding: 10px"><input type="text" name="kategori" style="width: 300px" value=""></td>
 	          </tr>
 	          <tr>
 	            <td>Nama Driver</td>
-	            <td style="padding: 10px"><input type="text" name="kategori" style="width: 300px" value="   (data)"></td>
+	            <td style="padding: 10px"><input type="text" name="kategori" style="width: 300px" value=""></td>
 	          </tr>
 	          <tr>
 	            <td>Harga Sewa (per hari)</td>
-	            <td style="padding: 10px"><input type="text" name="kategori" style="width: 300px" value="   (data)"></td>
+	            <td style="padding: 10px"><input type="text" name="kategori" style="width: 300px" value=""></td>
 	          </tr>
 	            <td></td>
-	            <td style="padding-top: 20px;padding-left: 100px;"><input type="submit" name="btnSubmit" value="Simpan" style="color: black">&nbsp;&nbsp;<a href="" style="color: black"><input type="button" value="Cancel"></a></td>
+	            <td style="padding-top: 20px;padding-left: 100px;"><a href="Kendaraan_Driver1.php"><input type="submit" name="btnSubmit" value="Simpan" style="color: black"></a>&nbsp;&nbsp;<a href="Kendaraan_Driver1.php" style="color: black"><input type="button" value="Cancel"></a></td>
 	        </table>
 	      </form>
 	    </div>

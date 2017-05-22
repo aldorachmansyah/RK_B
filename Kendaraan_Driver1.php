@@ -40,11 +40,6 @@
 	</nav>
 		
 	<div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
-		<form role="search">
-			<div class="form-group">
-				<input type="text" class="form-control" placeholder="Search">
-			</div>
-		</form>
 		<ul class="nav menu">
 			<li class="active"><a href="#"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-table"></use></svg> Daftar Armada</a></li>
 			<li role="presentation" class="divider"></li>
@@ -56,7 +51,7 @@
 	<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">			
 		<div class="row">
 			<ol class="breadcrumb">
-				<li><a href="#"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
+				<li><a href="home.php"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
 				<li class="active">Daftar Kendaraan + Driver</li>
 			</ol>
 		</div><!--/.row-->
@@ -82,23 +77,56 @@
 			</thead>
 			<tbody>
 				<tr style="text-align: center;">
-					<td>(data)</td>
-					<td>(data)</td>
-					<td>(data)</td>
-					<td>(data)</td>
-					<td>(data)</td>
-					<td>(data)</td>
+					<td>B 510 NDA</td>
+					<td>Kia</td>
+					<td>Rio</td>
+					<td>5</td>
+					<td>Ario Bimo</td>
+					<td>250000</td>
 					<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
 				</tr>
 			</tbody>
 			<tbody>
 				<tr style="text-align: center;">
-					<td>(data)</td>
-					<td>(data)</td>
-					<td>(data)</td>
-					<td>(data)</td>
-					<td>(data)</td>
-					<td>(data)</td>
+					<td>B 4707 BAN</td>
+					<td>Honda</td>
+					<td>City</td>
+					<td>4</td>
+					<td>Bimo Ario</td>
+					<td>250000</td>
+					<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
+				</tr>
+			</tbody>
+			<tbody>
+				<tr style="text-align: center;">
+					<td>L 1712 KL</td>
+					<td>Suzuki</td>
+					<td>Ertiga</td>
+					<td>6</td>
+					<td>Sumila</td>
+					<td>350000</td>
+					<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
+				</tr>
+			</tbody>
+			<tbody>
+				<tr style="text-align: center;">
+					<td>D 123 VE</td>
+					<td>Toyota</td>
+					<td>Innova</td>
+					<td>7</td>
+					<td>Faizul</td>
+					<td>400000</td>
+					<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
+				</tr>
+			</tbody>
+			<tbody>
+				<tr style="text-align: center;">
+					<td>W 120 SI</td>
+					<td>Toyota</td>
+					<td>Agya</td>
+					<td>4</td>
+					<td>Sina</td>
+					<td>280000</td>
 					<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
 				</tr>
 			</tbody>
