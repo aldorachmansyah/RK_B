@@ -23,7 +23,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#"><span>For</span>Rent</a>
+				<a class="navbar-brand" href="home.php"><span>For</span>Rent</a>
 				<ul class="user-menu">
 					<li class="dropdown pull-right">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg> User <span class="caret"></span></a>
@@ -41,7 +41,7 @@
 		
 	<div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
 		<ul class="nav menu">
-			<li class="active"><a href="Jadwal_Service.php"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-table"></use></svg> Jadwal Service</a></li>
+			<li class="active"><a href="Status_Kendaraan.php"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-table"></use></svg> Status Kendaraan</a></li>
 			<li role="presentation" class="divider"></li>
 
 		</ul>
@@ -51,8 +51,8 @@
 	<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">			
 		<div class="row">
 			<ol class="breadcrumb">
-				<li><a href="Jadwal_Service.php"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
-				<li class="active">Jadwal Service</li>
+				<li><a href="Status_Kendaraan.php"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
+				<li class="active">Status Kendaraan</li>
 				<li class="active">Detail</li>
 			</ol>
 		</div><!--/.row-->
@@ -86,7 +86,7 @@
 					<td>Ario Bimo</td>
 					<td>250000</td>
 					<td style="background-color: #65f442;"><font color="white">Ready</font></td>
-					<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
+					<td style="padding: 3px;"><a style="color: black" href="ubah_status_service.php"><button>Ubah</button></a></td>
 				</tr>
 			</tbody>
 			<tbody>
@@ -98,7 +98,7 @@
 					<td>Bimo Ario</td>
 					<td>250000</td>
 					<td style="background-color: #65f442;"><font color="white">Ready</font></td>
-					<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
+					<td style="padding: 3px;"><a style="color: black" href="ubah_status_service.php"><button>Ubah</button></a></td>
 				</tr>
 			</tbody>
 			<tbody>
@@ -110,7 +110,7 @@
 					<td>Sumila</td>
 					<td>350000</td>
 					<td style="background-color:#b75f12"><font color="white">On Service</font></td>
-					<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
+					<td style="padding: 3px;"><a style="color: black" href="ubah_status_service.php"><button>Ubah</button></a></td>
 				</tr>
 			</tbody>
 			<tbody>
@@ -122,7 +122,7 @@
 					<td>Faizul</td>
 					<td>400000</td>
 					<td style="background-color: #ff3535;"><font color="white">Booked</font></td>
-					<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
+					<td style="padding: 3px;"><a style="color: black" href="ubah_status_service.php"><button>Ubah</button></a></td>
 				</tr>
 			</tbody>
 			<tbody>
@@ -130,20 +130,15 @@
 					<td>W 120 SI</td>
 					<td>Toyota</td>
 					<td>Agya</td>
+				
 					<td>4</td>
 					<td>Sina</td>
 					<td>280000</td>
 					<td style="background-color: #f7933b;"><font color="white">Not Ready</font></td>
-					<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
+					<td style="padding: 3px;"><a style="color: black" href="ubah_status_service.php"><button>Ubah</button></a></td>
 				</tr>
 			</tbody>
 		</table>
-
-		<div align="center">
-			<h1></h1>
-			<a href="tambah_data_armada.php" style="color: black"><button type="button">Tambah Data</button></a>
-		</div>
-
 	</div>	<!--/.main-->
 
 	<script src="js/jquery-1.11.1.min.js"></script>

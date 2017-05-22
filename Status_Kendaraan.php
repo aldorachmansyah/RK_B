@@ -23,7 +23,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#"><span>For</span>Rent</a>
+				<a class="navbar-brand" href="home.php"><span>For</span>Rent</a>
 				<ul class="user-menu">
 					<li class="dropdown pull-right">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg> User <span class="caret"></span></a>
@@ -46,7 +46,7 @@
 			</div>
 		</form>
 		<ul class="nav menu"> 
-			<li><a href="index.html"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-dashboard-dial"></use></svg> Status Kendaraan</a></li>
+			<li><a href="Detail_Status_Kendaraan.php"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-dashboard-dial"></use></svg>Status Kendaraan</a></li>
 			<li role="presentation" class="divider"></li>
 
 		</ul>
