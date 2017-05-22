@@ -45,7 +45,7 @@
 				<input type="text" class="form-control" placeholder="Search">
 			</div>
 		</form>
-		<ul class="nav menu">
+		<ul class="nav menu"> 
 			<li><a href="index.html"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-dashboard-dial"></use></svg> Status Kendaraan</a></li>
 			<li role="presentation" class="divider"></li>
 
@@ -57,7 +57,7 @@
 		<div class="row">
 			<ol class="breadcrumb">
 				<li><a href="#"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
-				<li class="active">Daftar Kendaraan + Driver</li>
+				<li class="active">Status Kendaraan</li>
 			</ol>
 		</div><!--/.row-->
 		
