@@ -66,66 +66,54 @@
 						<tr style="background: #C9C9C9;">
 							<th style="text-align: center;padding: 8px">Nopol</th>
 							<th style="text-align: center;">Driver</th>
-							<th style="text-align: center;">Kondisi Kendaraan</th>
 							<th style="text-align: center;">Total km Masuk</th>
 							<th style="text-align: center;">Total km Keluar</th>
-							<th style="text-align: center;">Rincian Service</th>
-							<th style="text-align: center;">Status</th>
+							<th style="text-align: center;width: 130px">Kondisi Kendaraan</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr style="text-align: center;">
-							<td>B 510 NDA</td>
+							<td style="background-color: #65f442;">B 510 NDA</td>
 							<td>Ario Bimo</td>
-							<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Detail Kondisi</button></a></td>
 							<td>10.000</td>
 							<td>12.000</td>
-							<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Lihat Rincian</button></a></td>
-							<td>Checked</td>
+							<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Detail Kondisi</button></a></td>
 						</tr>
 					</tbody>
 					<tbody>
 						<tr style="text-align: center;">
-							<td>B 4707 BAN</td>
+							<td style="background-color: #ff3535;">B 4707 BAN</td>
 							<td>Bimo Ario</td>
-							<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Detail Kondisi</button></a></td>
 							<td>10.000</td>
 							<td>12.000</td>
-							<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Lihat Rincian</button></a></td>
-							<td>Not Yet</td>
+							<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Detail Kondisi</button></a></td>
 						</tr>
 					</tbody>
 					<tbody>
 						<tr style="text-align: center;">
-							<td>L 1712 KL</td>
+							<td style="background-color: #ff3535;">L 1712 KL</td>
 							<td>Sumila</td>
-							<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Detail Kondisi</button></a></td>
 							<td>10.000</td>
 							<td>12.000</td>
-							<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Lihat Rincian</button></a></td>
-							<td>Not Yet</td>
+							<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Detail Kondisi</button></a></td>
 						</tr>
 					</tbody>
 					<tbody>
 						<tr style="text-align: center;">
-							<td>D 123 VE</td>
+							<td style="background-color: #ff3535;">D 123 VE</td>
 							<td>Faizul</td>
-							<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Detail Kondisi</button></a></td>
 							<td>10.000</td>
 							<td>12.000</td>
-							<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Lihat Rincian</button></a></td>
-							<td>Checked</td>
+							<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Detail Kondisi</button></a></td>
 						</tr>
 					</tbody>
 					<tbody>
 						<tr style="text-align: center;">
-							<td>W 120 SI</td>
+							<td style="background-color: #ff3535;">W 120 SI</td>
 							<td>Sina</td>
-							<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Detail Kondisi</button></a></td>
 							<td>10.000</td>
 							<td>12.000</td>
-							<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Lihat Rincian</button></a></td>
-							<td>Not Yet</td>
+							<td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Detail Kondisi</button></a></td>
 						</tr>
 					</tbody>
 				</table>
