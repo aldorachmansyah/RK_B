@@ -60,73 +60,80 @@
 		<div class="col-md-2"></div>
 		<div class="col-md-8">
 			<div style="margin-left: -140px; margin-top: 70px;background-color: black;opacity: 0.95;padding: 50px; width: 1100px">
-				<h2 style="color: white">Jadwal Rekap/Pembayaran Kendaraan</h2>
+				<h2 style="color: white">Status Kendaraan</h2>
 				<table border="1" style="border-collapse: collapse;width: 100%;background-color: white">
 						<thead>
 							<tr style="background: #C9C9C9;">
 								<th style="text-align: center;padding: 8px">Nopol</th>
-								<th style="text-align: center;">Driver</th>
 								<th style="text-align: center;">Merk</th>
 								<th style="text-align: center;">Jenis</th>
+								<th style="text-align: center;">Muatan (orang)</th>
+								<th style="text-align: center;">Driver</th>
 								<th style="text-align: center;">Harga Sewa (per hari)</th>
-								<th style="text-align: center;">Pengeluaran Service</th>
-								<th style="text-align: center;">Pemasukan Total</th>
+								<th style="text-align: center;">Status</th>
+								<th style="text-align: center;width: 130px">#</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr style="text-align: center;">
 								<td>B 510 NDA</td>
-								<td>Ario Bimo</td>
 								<td>Kia</td>
 								<td>Rio</td>
+								<td>5</td>
+								<td>Ario Bimo</td>
 								<td>250000</td>
-								<td>1.500.000</td>
-								<td>3.000.000</td>
+								<td style="background-color: #65f442;"><font color="white">Ready</font></td>
+								<td style="padding: 3px;"><a style="color: black" href="ubah_status_service.php"><button>Ubah</button></a></td>
 							</tr>
 						</tbody>
 						<tbody>
 							<tr style="text-align: center;">
 								<td>B 4707 BAN</td>
-								<td>Bimo Ario</td>
 								<td>Honda</td>
 								<td>City</td>
+								<td>4</td>
+								<td>Bimo Ario</td>
 								<td>250000</td>
-								<td>1.500.000</td>
-								<td>3.000.000</td>
+								<td style="background-color: #65f442;"><font color="white">Ready</font></td>
+								<td style="padding: 3px;"><a style="color: black" href="ubah_status_service.php"><button>Ubah</button></a></td>
 							</tr>
 						</tbody>
 						<tbody>
 							<tr style="text-align: center;">
 								<td>L 1712 KL</td>
-								<td>Sumila</td>
 								<td>Suzuki</td>
 								<td>Ertiga</td>
+								<td>6</td>
+								<td>Sumila</td>
 								<td>350000</td>
-								<td>1.500.000</td>
-								<td>3.000.000</td>
+								<td style="background-color:#b75f12"><font color="white">On Service</font></td>
+								<td style="padding: 3px;"><a style="color: black" href="ubah_status_service.php"><button>Ubah</button></a></td>
 							</tr>
 						</tbody>
 						<tbody>
 							<tr style="text-align: center;">
 								<td>D 123 VE</td>
-								<td>Faizul</td>
 								<td>Toyota</td>
 								<td>Innova</td>
+								<td>7</td>
+								<td>Faizul</td>
 								<td>400000</td>
-								<td>1.500.000</td>
-								<td>3.000.000</td>
+								<td style="background-color: #ff3535;"><font color="white">Booked</font></td>
+								<td style="padding: 3px;"><a style="color: black" href="ubah_status_service.php"><button>Ubah</button></a></td>
 							</tr>
 						</tbody>
 						<tbody>
 							<tr style="text-align: center;">
 								<td>W 120 SI</td>
-								<td>Sina</td>
 								<td>Toyota</td>
 								<td>Agya</td>
+							
+								<td>4</td>
+								<td>Sina</td>
 								<td>280000</td>
-								<td>1.500.000</td>
-								<td>3.000.000</td>
-							</tr>s
+								<td style="background-color: #f7933b;"><font color="white">Not Ready</font></td>
+								<td style="padding: 3px;"><a style="color: black" href="ubah_status_service.php"><button>Ubah</button></a></td>
+							</tr>
 						</tbody>
 					</table>
 				<!-- <div class="col-md-4 daftar ">

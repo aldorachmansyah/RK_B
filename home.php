@@ -10,9 +10,9 @@
 	<style>
 		/* Add a black background color to the top navigation */
 		.topnav {
-		    background-color: #474747;
+		    background-color: black;
 		    overflow: hidden;
-		    opacity: 0.9;
+		    opacity: 0.7;
 		}
 
 		/* Style the links inside the navigation bar */
@@ -32,8 +32,26 @@
 		    color: black;
 		}
 
+		.tombol a {
+		    float: left;
+		    display: block;
+		    color: white;
+		    text-align: center;
+		    padding: 10px 10px;
+		    text-decoration: none;
+		    font-size: 17px;
+		}
+
+		/* Change the color of links on hover */
+		.tombol div:hover {
+		    background-color: yellow;
+		    color: black;
+		    /*width: 200px;
+		    height: 100px;*/
+		}
+
 		/* Add a color to the active/current link */
-		.topnav a.active {
+		.tombol p.active {
 		    background-color: #4CAF50;
 		    color: white;
 		}
@@ -42,7 +60,7 @@
 <body>
 
 	<div class="topnav" id="myTopnav">
-	  <a href="#home">Home</a>
+	  <a href="home.php">Home</a>
 	  <a href="#news">News</a>
 	  <a href="#contact">Contact</a>
 	  <a href="#about">About</a>
@@ -59,43 +77,59 @@
 	<div class="col-md-12 badan">
 		<div class="col-md-2"></div>
 		<div class="col-md-8">
-			<div class="col-md-12 center" style="margin-top: 216px">
-				<a href="Kendaraan_Driver.php"><div class="col-md-4 daftar ">
-					<div class="putih" style="height: 100px">
+			<div class="col-md-12 center" style="margin-top: 185px;background-color: black;padding-bottom: 30px;opacity: 0.75">
+				<div class="col-md-4 daftar ">
+					<a href="Kendaraan_Driver.php">
+					<div class="tombol" style="height: 100px;">
 						<!-- <img src=""> -->
+<<<<<<< HEAD
 						<p class="font2" style="padding-top: 20px">Daftar Kendaraan & Driver</p>
+=======
+						<p class="font2" style="color: black;">Daftar Kendaraan & Driver</p>
+>>>>>>> 4a74d055fba2c6709cacb3f4f891594932f3117b
 					</div>
-				</div></a>
-				<a href="Status_Kendaraan.php"><div class="col-md-4 daftar ">
-					<div class="putih" style="height: 100px">
+					</a>
+				</div>
+				<div class="col-md-4 daftar">
+					<a href="Status_Kendaraan.php">
+					<div class="tombol" style="height: 100px">
 						<!-- <img src=""> -->
-						<p class="font2" style="padding-top: 20px">Status Kendaraan</p>
+						<p class="font2" style="color: black;padding-top: 10px">Status Kendaraan</p>
 					</div>
-				</div></a>
-				<a href="Jadwal_Service.php"><div class="col-md-4 daftar ">
-					<div class="putih" style="height: 100px">
+					</a>
+				</div>
+				<div class="col-md-4 daftar ">
+					<a href="Jadwal_Service.php">
+					<div class="tombol" style="height: 100px">
 						<!-- <img src=""> -->
-						<p class="font2" style="padding-top: 20px">Jadwal Service Kendaraan</p>
+						<p class="font2" style="color: black;padding-top: 10px">Jadwal Service Kendaraan</p>
 					</div>
-				</div></a>
-				<a href="jadwal_rekap_kendaraan.php"><div class="col-md-4 daftar ">
-					<div class="putih" style="height: 100px">
+					</a>
+				</div>
+				<div class="col-md-4 daftar ">
+					<a href="jadwal_rekap_kendaraan.php">
+					<div class="tombol" style="height: 100px">
 						<!-- <img src=""> -->
-						<p class="font2" style="padding-top: 20px">Jadwal Rekap Kendaraan</p>
+						<p class="font2" style="color: black;padding-top: 10px">Jadwal Rekap Kendaraan</p>
 					</div>
-				</div></a>
-				<a href="notifikasi.php"><div class="col-md-4 daftar ">
-					<div class="putih" style="height: 100px">
+					</a>
+				</div>
+				<div class="col-md-4 daftar ">
+					<a href="notifikasi.php">
+					<div class="tombol" style="height: 100px">
 						<!-- <img src=""> -->
-						<p class="font2" style="padding-top: 20px">Notifikasi</p>
+						<p class="font2" style="color: black;padding-top: 20px">Notifikasi</p>
 					</div>
-				</div></a>
-				<a href="penyewaan.php"><div class="col-md-4 daftar ">
-					<div class="putih" style="height: 100px">
+					</a>
+				</div>
+				<div class="col-md-4 daftar ">
+					<a href="penyewaan.php">
+					<div class="tombol" style="height: 100px">
 						<!-- <img src=""> -->
-						<p class="font2" style="padding-top: 20px">Penyewaan</p>
+						<p class="font2" style="color: black;padding-top: 20px">Penyewaan</p>
 					</div>
-				</div></a>
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
