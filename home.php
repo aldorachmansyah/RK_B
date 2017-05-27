@@ -3,7 +3,7 @@
 <head>
 	<title>ForRent</title>
 	<link rel="stylesheet" type="text/css" href="css/style2.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -73,61 +73,84 @@
 		</div>
 	</div><!-- /.container-fluid -->
 
-
-	<div class="col-md-12 badan">
-		<div class="col-md-2"></div>
-		<div class="col-md-8">
-			<div class="col-md-12 center" style="margin-top: 185px;padding-bottom: 30px;opacity: 0.75">
-				<div class="col-md-4 daftar ">
-					<a href="Kendaraan_Driver.php">
-					<div class="tombol" style="height: 100px;">
-						<!-- <img src=""> -->
-						<p class="font2" style="color: black; padding-top: 10px">Daftar Kendaraan & Driver</p>	
+	<div id="page">
+		<div class="col-md-12 badan">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<div class="col-md-12 center" style="margin-top: 185px;padding-bottom: 30px;opacity: 0.75">
+					<div class="col-md-4 daftar ">
+						<a href="Kendaraan_Driver.php">
+						<div class="tombol" style="height: 100px;">
+							<!-- <img src=""> -->
+							<p class="font2" style="color: black; padding-top: 10px">Daftar Kendaraan & Driver</p>	
+						</div>
+						</a>
 					</div>
-					</a>
-				</div>
-				<div class="col-md-4 daftar">
-					<a href="Status_Kendaraan.php">
-					<div class="tombol" style="height: 100px">
-						<!-- <img src=""> -->
-						<p class="font2" style="color: black;padding-top: 20px">Status Kendaraan</p>
+					<div class="col-md-4 daftar">
+						<a href="Status_Kendaraan.php">
+						<div class="tombol" style="height: 100px">
+							<!-- <img src=""> -->
+							<p class="font2" style="color: black;padding-top: 20px">Status Kendaraan</p>
+						</div>
+						</a>
 					</div>
-					</a>
-				</div>
-				<div class="col-md-4 daftar ">
-					<a href="Jadwal_Service.php">
-					<div class="tombol" style="height: 100px">
-						<!-- <img src=""> -->
-						<p class="font2" style="color: black;padding-top: 10px">Jadwal Service Kendaraan</p>
+					<div class="col-md-4 daftar ">
+						<a href="Jadwal_Service.php">
+						<div class="tombol" style="height: 100px">
+							<!-- <img src=""> -->
+							<p class="font2" style="color: black;padding-top: 10px">Jadwal Service Kendaraan</p>
+						</div>
+						</a>
 					</div>
-					</a>
-				</div>
-				<div class="col-md-4 daftar ">
-					<a href="jadwal_rekap_kendaraan.php">
-					<div class="tombol" style="height: 100px">
-						<!-- <img src=""> -->
-						<p class="font2" style="color: black;padding-top: 10px">Jadwal Rekap Kendaraan</p>
+					<div class="col-md-4 daftar ">
+						<a href="jadwal_rekap_kendaraan.php">
+						<div class="tombol" style="height: 100px">
+							<!-- <img src=""> -->
+							<p class="font2" style="color: black;padding-top: 10px">Jadwal Rekap Kendaraan</p>
+						</div>
+						</a>
 					</div>
-					</a>
-				</div>
-				<div class="col-md-4 daftar ">
-					<a href="notifikasi.php">
-					<div class="tombol" style="height: 100px">
-						<!-- <img src=""> -->
-						<p class="font2" style="color: black;padding-top: 20px">Notifikasi</p>
+					<div class="col-md-4 daftar ">
+						<a href="notifikasi.php">
+						<div class="tombol" style="height: 100px">
+							<!-- <img src=""> -->
+							<p class="font2" style="color: black;padding-top: 20px">Notifikasi</p>
+						</div>
+						</a>
 					</div>
-					</a>
-				</div>
-				<div class="col-md-4 daftar ">
-					<a href="penyewaan.php">
-					<div class="tombol" style="height: 100px">
-						<!-- <img src=""> -->
-						<p class="font2" style="color: black;padding-top: 20px">Penyewaan</p>
+					<div class="col-md-4 daftar ">
+						<a href="penyewaan.php">
+						<div class="tombol" style="height: 100px">
+							<!-- <img src=""> -->
+							<p class="font2" style="color: black;padding-top: 20px">Penyewaan</p>
+						</div>
+						</a>
 					</div>
-					</a>
 				</div>
 			</div>
 		</div>
 	</div>
+	<div id="loading"></div>
 </body>
+<script type="text/javascript">
+	function onReady(callback) {
+	    var intervalID = window.setInterval(checkReady, 1000);
+
+	    function checkReady() {
+	        if (document.getElementsByTagName('body')[0] !== undefined) {
+	            window.clearInterval(intervalID);
+	            callback.call(this);
+	        }
+	    }
+	}
+
+	function show(id, value) {
+	    document.getElementById(id).style.display = value ? 'block' : 'none';
+	}
+
+	onReady(function () {
+	    show('page', true);
+	    show('loading', false);
+	});
+</script>
 </html>

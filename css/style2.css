@@ -9,11 +9,12 @@
 }
 
 body { 
-	background: url("http://www.aeroportodicomiso.eu/images/foto-pagine/rent-car.jpg") no-repeat center center fixed; 
-	-webkit-background-size: cover;
+	background: #f1f4f7;
+	/*background-color: #000000;*/
+	-/*webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	background-size: cover;*/
 }
 
 .navbar{
@@ -198,4 +199,24 @@ input:focus{
 	color: #2D2D2C;
 	margin-top: -1vw;
 	font-size: 17px;
+}
+
+#loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(192, 192, 192, 0.5);
+    background-image: url("http://i.stack.imgur.com/MnyxU.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#page 
+{
+	display: none;
+	background: #f1f4f7;
 }
