@@ -130,7 +130,6 @@
 					<td>W 120 SI</td>
 					<td>Toyota</td>
 					<td>Agya</td>
-				
 					<td>4</td>
 					<td>Sina</td>
 					<td>280000</td>
@@ -138,6 +137,7 @@
 					<td style="padding: 3px;"><a style="color: black" href="ubah_status_service.php"><button>Ubah</button></a></td>
 				</tr>
 			</tbody>
+			
 		</table>
 	</div>	<!--/.main-->
 

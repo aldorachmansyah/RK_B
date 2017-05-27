@@ -63,7 +63,7 @@
 				<a href="Kendaraan_Driver.php"><div class="col-md-4 daftar ">
 					<div class="putih" style="height: 100px">
 						<!-- <img src=""> -->
-						<p class="font2" style="padding-top: 10px">Daftar Kendaraan & Driver</p>
+						<p class="font2" style="padding-top: 20px">Daftar Kendaraan & Driver</p>
 					</div>
 				</div></a>
 				<a href="Status_Kendaraan.php"><div class="col-md-4 daftar ">

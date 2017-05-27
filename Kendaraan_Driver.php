@@ -63,7 +63,7 @@
 		</div>-->
 		<h1></h1>
 
-		<table border="1" style="border-collapse: collapse;width: 100%;">
+		<table border="1" style="border-collapse: collapse;width: 100%;" id="table">
 			<thead>
 				<tr style="background: #C9C9C9;">
 					<th style="text-align: center;padding: 8px">Nopol</th>
