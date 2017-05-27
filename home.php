@@ -59,34 +59,30 @@
 </head>
 <body>
 
-	<div class="topnav" id="myTopnav">
+	<!-- <div class="topnav" id="myTopnav">
 	  <a href="home.php">Home</a>
 	  <a href="#news">News</a>
 	  <a href="#contact">Contact</a>
 	  <a href="#about">About</a>
 	  <a href="#about" style="margin-left: 850px">Logout</a>
-	</div>
+	</div> -->
 
 	<!-- <div class="container-fluid">
 		<div class="navbar">
 			<a href="index.html" class="logo font1"><b class="font2">ForRent</a>
 		</div>
-	</div><!-- /.container-fluid --> -->
+	</div><!-- /.container-fluid -->
 
 
 	<div class="col-md-12 badan">
 		<div class="col-md-2"></div>
 		<div class="col-md-8">
-			<div class="col-md-12 center" style="margin-top: 185px;background-color: black;padding-bottom: 30px;opacity: 0.75">
+			<div class="col-md-12 center" style="margin-top: 185px;padding-bottom: 30px;opacity: 0.75">
 				<div class="col-md-4 daftar ">
 					<a href="Kendaraan_Driver.php">
 					<div class="tombol" style="height: 100px;">
 						<!-- <img src=""> -->
-<<<<<<< HEAD
-						<p class="font2" style="padding-top: 20px">Daftar Kendaraan & Driver</p>
-=======
-						<p class="font2" style="color: black;">Daftar Kendaraan & Driver</p>
->>>>>>> 4a74d055fba2c6709cacb3f4f891594932f3117b
+						<p class="font2" style="color: black; padding-top: 10px">Daftar Kendaraan & Driver</p>	
 					</div>
 					</a>
 				</div>
@@ -94,7 +90,7 @@
 					<a href="Status_Kendaraan.php">
 					<div class="tombol" style="height: 100px">
 						<!-- <img src=""> -->
-						<p class="font2" style="color: black;padding-top: 10px">Status Kendaraan</p>
+						<p class="font2" style="color: black;padding-top: 20px">Status Kendaraan</p>
 					</div>
 					</a>
 				</div>
