@@ -95,7 +95,7 @@
 						</a>
 					</div>
 					<div class="col-md-4 daftar ">
-						<a href="Jadwal_Service.php">
+						<a href="Jadwal_rekap_baru.php">
 						<div class="tombol" style="height: 100px">
 							<!-- <img src=""> -->
 							<p class="font2" style="color: black;padding-top: 10px">Jadwal Service Kendaraan</p>
@@ -103,7 +103,7 @@
 						</a>
 					</div>
 					<div class="col-md-4 daftar ">
-						<a href="jadwal_rekap_kendaraan.php">
+						<a href="jadwal_rekap_baru.php">
 						<div class="tombol" style="height: 100px">
 							<!-- <img src=""> -->
 							<p class="font2" style="color: black;padding-top: 10px">Jadwal Rekap Kendaraan</p>
