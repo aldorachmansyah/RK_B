@@ -79,7 +79,7 @@
 			<div class="col-md-8">
 				<div class="col-md-12 center" style="margin-top: 185px;padding-bottom: 30px;opacity: 0.75">
 					<div class="col-md-4 daftar ">
-						<a href="kendaraan_driver_baru.php">
+						<a href="kendaraan_driver.php">
 						<div class="tombol" style="height: 100px;">
 							<!-- <img src=""> -->
 							<p class="font2" style="color: black; padding-top: 10px">Daftar Kendaraan & Driver</p>	
@@ -87,7 +87,7 @@
 						</a>
 					</div>
 					<div class="col-md-4 daftar">
-						<a href="Status_Kendaraan_baru.php">
+						<a href="Status_Kendaraan.php">
 						<div class="tombol" style="height: 100px">
 							<!-- <img src=""> -->
 							<p class="font2" style="color: black;padding-top: 20px">Status Kendaraan</p>
