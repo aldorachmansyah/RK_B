@@ -162,18 +162,17 @@
       <ul class="sidebar-menu">
         <li class="active treeview">
           <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Jadwal Service</span>
+            <i class="fa fa-dashboard"></i> <span>Daftar Kendaraan & Driver</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li ><a href="jadwal_service_baru.php"><i class="fa fa-circle-o"></i>Home</a></li>
+            <li><a href="kendaraan_driver.php"><i class="fa fa-circle-o"></i>Home</a></li>
           </ul>
           <ul class="treeview-menu">
-            <li class="active"><a href="index_jadwal_service  .php"><i class="fa fa-circle-o"></i>List</a></li>
+            <li><a href="index_kendaraan_driver.php"><i class="fa fa-circle-o"></i>List</a></li>
           </ul>
-        </li>
         </li>
       </ul>
     </section>
@@ -183,94 +182,70 @@
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+        Form Ubah Data
+      </h1>
+    </section>
+    <script src="js/bootstrap-datepicker.js"></script>
 
-    <div class="box">
-            <!-- /.box-header -->
-            <div class="box-body">
-              <h2 style="color: black;">Daftar Kendaraan & Driver</h2>
-        <table id="example1" class="table table-bordered table-striped">
-          <thead>
-            <tr style="background: #C9C9C9;">
-              <th style="text-align: center;padding: 8px">Tanggal</th>
-              <th style="text-align: center;padding: 8px">Nopol</th>
-              <th style="text-align: center;padding: 8px">Merk</th>
-              <th style="text-align: center;padding: 8px">Jenis</th>
-              <th style="text-align: center;padding: 8px">Muatan (orang)</th>
-              <th style="text-align: center;padding: 8px">Driver</th>
-              <th style="text-align: center;padding: 8px">Harga Sewa (per hari)</th>
-              <th style="text-align: center;width: 130px">#</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr style="text-align: center;">
-              <td>31 Mei 2017</td>
-              <td>B 510 NDA</td>
-              <td>Kia</td>
-              <td>Rio</td>
-              <td>5</td>
-              <td>Ario Bimo</td>
-              <td>250.000</td>
-              <td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr style="text-align: center;">
-              <td>1 Juni 2017</td>
-              <td>B 4707 BAN</td>
-              <td>Honda</td>
-              <td>City</td> 
-              <td>4</td>
-              <td>Bimo Ario</td>
-              <td>250.000</td>
-              <td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr style="text-align: center;">
-              <td>2 Juni 2017</td>
-              <td>L 1712 KL</td>
-              <td>Suzuki</td>
-              <td>Ertiga</td>
-              <td>6</td>
-              <td>Sumila</td>
-              <td>350.000</td>
-              <td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr style="text-align: center;">
-              <td>2 Juni 2017</td>
-              <td>D 123 VE</td>
-              <td>Toyota</td>
-              <td>Innova</td>
-              <td>7</td>
-              <td>Faizul</td>
-              <td>400.000</td>
-              <td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr style="text-align: center;">
-              <td>3 Juni 2017</td>
-              <td>W 120 SI</td>
-              <td>Toyota</td>
-              <td>Agya</td>
-              <td>4</td>
-              <td>Sina</td>
-              <td>280.000</td>
-              <td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
-            </tr>
-          </tbody>
-        </table>
+    <!-- Main content -->
+    <section class="content">
+      <div class="box box-primary">
+       <form role="form">
+          <div class="box-body">
+            <div class="form-group">
+                <label>Tanggal Service:</label>
 
-        <div align="center">
-          <h1></h1>
-          <a href="ubah_jadwal_service.php" style="color: black"><button type="button">Tambah Data</button></a>
-        </div>
+                <div class="input-group date">
+                  <div class="input-group-addon">
+                    <i class="fa fa-calendar"></i>
+                  </div>
+                  <input type="text" class="form-control pull-right" id="datepicker">
+                </div>
+                <!-- /.input group -->
+              </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Nomor Polisi</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="NoPol" disabled>
             </div>
-            <!-- /.box-body -->
+            <div class="form-group">
+              <label for="exampleInputEmail1">Merk</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Merk" disabled>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Jenis</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Jenis" disabled>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Muatan (Orang)</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Muatan (Orang)" disabled>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Driver</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Masukkan Nama Driver">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Harga Sewa</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Masukkan Harga Sewa">
+            </div>
           </div>
-
+          <div class="box-footer">
+                <a href="index_jadwal_service.php" <button type="submit" class="btn btn-primary">Submit</button></a>
+            </div>
+        </form> 
+      </div> 
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="main-footer">
+    <div class="pull-right hidden-xs">
+      <b>Version</b> 2.3.8
+    </div>
+    <strong>Copyright &copy; 2014-2016 <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> All rights
+    reserved.
+  </footer>f
   <div class="control-sidebar-bg"></div>
 </div>
 <!-- ./wrapper -->
