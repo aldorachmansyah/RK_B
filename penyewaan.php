@@ -162,7 +162,7 @@
       <ul class="sidebar-menu">
         <li class="active treeview">
           <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Status Kendaraan</span>
+            <i class="fa fa-dashboard"></i> <span>Penyewaan</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
