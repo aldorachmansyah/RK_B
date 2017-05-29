@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Daftar Kendaraaan & Driver </title>
+  <title>Status Kendaraan</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
-  <link rel="stylesheet" href="../../plugins/datatables/dataTables.bootstrap.css">
+  <link rel="stylesheet" href="plugins/datatables/dataTables.bootstrap.css">
   <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
   <!-- iCheck -->
   <link rel="stylesheet" href="plugins/iCheck/flat/blue.css">
@@ -169,10 +169,10 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li class="active"><a href="jadwal_rekap_baru.php"><i class="fa fa-circle-o"></i>Home</a></li>
+            <li><a href="jadwal_rekap_baru.php"><i class="fa fa-circle-o"></i>Home</a></li>
           </ul>
           <ul class="treeview-menu">
-            <li><a href="index_jadwal_rekap.php"><i class="fa fa-circle-o"></i>List</a></li>
+            <li class="active"><a href="index_jadwal_rekap.php"><i class="fa fa-circle-o"></i>List</a></li>
           </ul>
         </li>
       </ul>
@@ -191,13 +191,14 @@
               <table id="example2" class="table table-bordered table-hover">
                 <thead>
                   <tr style="background: #C9C9C9;">
-                    <th style="text-align: center;padding: 8px">Nopol</th>
-                    <th style="text-align: center;">Driver</th>
-                    <th style="text-align: center;">Merk</th>
-                    <th style="text-align: center;">Jenis</th>
-                    <th style="text-align: center;">Harga Sewa (per hari)</th>
-                    <th style="text-align: center;">Pengeluaran Service</th>
-                    <th style="text-align: center;">Pemasukan Total</th>
+                    <th style="text-align: center;padding: 8px;">Nopol</th>
+                    <th style="text-align: center;padding: 8px;">Driver</th>
+                    <th style="text-align: center;padding: 8px;">Merk</th>
+                    <th style="text-align: center;padding: 8px;">Jenis</th>
+                    <th style="text-align: center;padding: 8px;">Harga Sewa (per hari)</th>
+                    <th style="text-align: center;padding: 8px;">Pengeluaran Service</th>
+                    <th style="text-align: center;padding: 8px;">Pemasukan Total</th>
+                    <th style="text-align: center;padding: 8px;">Bulan</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -206,27 +207,30 @@
                     <td>Ario Bimo</td>
                     <td>Kia</td>
                     <td>Rio</td>
-                    <td>250000</td>
+                    <td>250.000</td>
+                    <td>500.000</td>
                     <td>1.500.000</td>
-                    <td>3.000.000</td>
+                    <td>Januari</td>
                   </tr>
                   <tr style="text-align: center;">
                     <td>B 4707 BAN</td>
                     <td>Bimo Ario</td>
                     <td>Honda</td>
                     <td>City</td>
-                    <td>250000</td>
-                    <td>1.500.000</td>
-                    <td>3.000.000</td>
+                    <td>250.000</td>
+                    <td>1.000.000</td>
+                    <td>2.000.000</td>
+                    <td>Januari</td>
                   </tr>
                   <tr style="text-align: center;">
                     <td>L 1712 KL</td>
                     <td>Sumila</td>
                     <td>Suzuki</td>
                     <td>Ertiga</td>
-                    <td>350000</td>
-                    <td>1.500.000</td>
-                    <td>3.000.000</td>
+                    <td>350.000</td>
+                    <td>300.000</td>
+                    <td>1.000.000</td>
+                    <td>Januari</td>
                   </tr>
 
                   <tr style="text-align: center;">
@@ -234,9 +238,10 @@
                     <td>Faizul</td>
                     <td>Toyota</td>
                     <td>Innova</td>
-                    <td>400000</td>
-                    <td>1.500.000</td>
-                    <td>3.000.000</td>
+                    <td>400.000</td>
+                    <td>400.000</td>
+                    <td>2.500.000</td>
+                    <td>Januari</td>
                   </tr>
 
                   <tr style="text-align: center;">
@@ -244,9 +249,52 @@
                     <td>Sina</td>
                     <td>Toyota</td>
                     <td>Agya</td>
-                    <td>280000</td>
-                    <td>1.500.000</td>
-                    <td>3.000.000</td>
+                    <td>280.000</td>
+                    <td>200.000</td>
+                    <td>500.000</td>
+                    <td>Januari</td>
+                  </tr>
+
+                   <tr style="text-align: center;">
+                    <td>B 510 NDA</td>
+                    <td>Ario Bimo</td>
+                    <td>Kia</td>
+                    <td>Rio</td>
+                    <td>250.000</td>
+                    <td>400.000</td>
+                    <td>1.250.000</td>
+                    <td>Februari</td>
+                  </tr>
+                  <tr style="text-align: center;">
+                    <td>B 4707 BAN</td>
+                    <td>Bimo Ario</td>
+                    <td>Honda</td>
+                    <td>City</td>
+                    <td>250.000</td>
+                    <td>500.000</td>
+                    <td>2.500.000</td>
+                    <td>Februari</td>
+                  </tr>
+                  <tr style="text-align: center;">
+                    <td>L 1712 KL</td>
+                    <td>Sumila</td>
+                    <td>Suzuki</td>
+                    <td>Ertiga</td>
+                    <td>350.000</td>
+                    <td>200.000</td>
+                    <td>1.400.000</td>
+                    <td>Februari</td>
+                  </tr>
+
+                  <tr style="text-align: center;">
+                    <td>D 123 VE</td>
+                    <td>Faizul</td>
+                    <td>Toyota</td>
+                    <td>Innova</td>
+                    <td>400.000</td>
+                    <td>600.000</td>
+                    <td>3.200.000</td>
+                    <td>Februari</td>
                   </tr>
 
                   <tr style="text-align: center;">
@@ -254,97 +302,10 @@
                     <td>Sina</td>
                     <td>Toyota</td>
                     <td>Agya</td>
-                    <td>280000</td>
-                    <td>1.500.000</td>
-                    <td>3.000.000</td>
-                  </tr>
-
-                  <tr style="text-align: center;">
-                    <td>W 120 SI</td>
-                    <td>Sina</td>
-                    <td>Toyota</td>
-                    <td>Agya</td>
-                    <td>280000</td>
-                    <td>1.500.000</td>
-                    <td>3.000.000</td>
-                  </tr>
-
-                  <tr style="text-align: center;">
-                    <td>W 120 SI</td>
-                    <td>Sina</td>
-                    <td>Toyota</td>
-                    <td>Agya</td>
-                    <td>280000</td>
-                    <td>1.500.000</td>
-                    <td>3.000.000</td>
-                  </tr>
-
-                  <tr style="text-align: center;">
-                    <td>W 120 SI</td>
-                    <td>Sina</td>
-                    <td>Toyota</td>
-                    <td>Agya</td>
-                    <td>280000</td>
-                    <td>1.500.000</td>
-                    <td>3.000.000</td>
-                  </tr>
-
-                  <tr style="text-align: center;">
-                    <td>W 120 SI</td>
-                    <td>Sina</td>
-                    <td>Toyota</td>
-                    <td>Agya</td>
-                    <td>280000</td>
-                    <td>1.500.000</td>
-                    <td>3.000.000</td>
-                  </tr>
-
-                  <tr style="text-align: center;">
-                    <td>W 120 SI</td>
-                    <td>Sina</td>
-                    <td>Toyota</td>
-                    <td>Agya</td>
-                    <td>280000</td>
-                    <td>1.500.000</td>
-                    <td>3.000.000</td>
-                  </tr>
-
-                  <tr style="text-align: center;">
-                    <td>W 120 SI</td>
-                    <td>Sina</td>
-                    <td>Toyota</td>
-                    <td>Agya</td>
-                    <td>280000</td>
-                    <td>1.500.000</td>
-                    <td>3.000.000</td>
-                  </tr>
-                  <tr style="text-align: center;">
-                    <td>W 120 SI</td>
-                    <td>Sina</td>
-                    <td>Toyota</td>
-                    <td>Agya</td>
-                    <td>280000</td>
-                    <td>1.500.000</td>
-                    <td>3.000.000</td>
-                  </tr>
-                  <tr style="text-align: center;">
-                    <td>W 120 SI</td>
-                    <td>Sina</td>
-                    <td>Toyota</td>
-                    <td>Agya</td>
-                    <td>280000</td>
-                    <td>1.500.000</td>
-                    <td>3.000.000</td>
-                  </tr>
-
-                  <tr style="text-align: center;">
-                    <td>W 120 SI</td>
-                    <td>Sina</td>
-                    <td>Toyota</td>
-                    <td>Agya</td>
-                    <td>280000</td>
-                    <td>1.500.000</td>
-                    <td>3.000.000</td>
+                    <td>280.000</td>
+                    <td>400.000</td>
+                    <td>800.000</td>
+                    <td>Februari</td>
                   </tr>
                 </tbody>
               </table>
@@ -364,20 +325,20 @@
   $.widget.bridge('uibutton', $.ui.button);
 </script>
 <!-- jQuery 2.2.3 -->
-<script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>
+<script src="plugins/jQuery/jquery-2.2.3.min.js"></script>
 <!-- Bootstrap 3.3.6 -->
-<script src="../../bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
 <!-- DataTables -->
-<script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
-<script src="../../plugins/datatables/dataTables.bootstrap.min.js"></script>
+<script src="plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="plugins/datatables/dataTables.bootstrap.min.js"></script>
 <!-- SlimScroll -->
-<script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<script src="plugins/slimScroll/jquery.slimscroll.min.js"></script>
 <!-- FastClick -->
-<script src="../../plugins/fastclick/fastclick.js"></script>
+<script src="plugins/fastclick/fastclick.js"></script>
 <!-- AdminLTE App -->
-<script src="../../dist/js/app.min.js"></script>
+<script src="dist/js/app.min.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="../../dist/js/demo.js"></script>
+<script src="dist/js/demo.js"></script>
 <!-- page script -->
 <script>
   $(function () {

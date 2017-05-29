@@ -191,12 +191,12 @@
           <thead>
               <tr style="background: #C9C9C9;">
                 <th style="text-align: center;padding: 8px">Nopol</th>
-                <th style="text-align: center;">Merk</th>
-                <th style="text-align: center;">Jenis</th>
-                <th style="text-align: center;">Muatan (orang)</th>
-                <th style="text-align: center;">Driver</th>
-                <th style="text-align: center;">Harga Sewa (per hari)</th>
-                <th style="text-align: center;">Status</th>
+                <th style="text-align: center;padding: 8px">Merk</th>
+                <th style="text-align: center;padding: 8px">Jenis</th>
+                <th style="text-align: center;padding: 8px">Muatan (orang)</th>
+                <th style="text-align: center;padding: 8px">Driver</th>
+                <th style="text-align: center;padding: 8px">Harga Sewa (per hari)</th>
+                <th style="text-align: center;padding: 8px">Status</th>
                 <th style="text-align: center;width: 130px">#</th>
               </tr>
             </thead>
@@ -207,7 +207,7 @@
                 <td>Rio</td>
                 <td>5</td>
                 <td>Ario Bimo</td>
-                <td>250000</td>
+                <td>250.000</td>
                 <td style="background-color: #65f442;"><font color="white">Ready</font></td>
                 <td style="padding: 3px;"><a style="color: black" href="ubah_status_service.php"><button>Ubah</button></a></td>
               </tr>
@@ -219,7 +219,7 @@
                 <td>City</td>
                 <td>4</td>
                 <td>Bimo Ario</td>
-                <td>250000</td>
+                <td>250.000</td>
                 <td style="background-color: #65f442;"><font color="white">Ready</font></td>
                 <td style="padding: 3px;"><a style="color: black" href="ubah_status_service.php"><button>Ubah</button></a></td>
               </tr>
@@ -231,7 +231,7 @@
                 <td>Ertiga</td>
                 <td>6</td>
                 <td>Sumila</td>
-                <td>350000</td>
+                <td>350.000</td>
                 <td style="background-color:#b75f12"><font color="white">On Service</font></td>
                 <td style="padding: 3px;"><a style="color: black" href="ubah_status_service.php"><button>Ubah</button></a></td>
               </tr>
@@ -243,7 +243,7 @@
                 <td>Innova</td>
                 <td>7</td>
                 <td>Faizul</td>
-                <td>400000</td>
+                <td>400.000</td>
                 <td style="background-color: #ff3535;"><font color="white">Booked</font></td>
                 <td style="padding: 3px;"><a style="color: black" href="ubah_status_service.php"><button>Ubah</button></a></td>
               </tr>
@@ -253,10 +253,9 @@
                 <td>W 120 SI</td>
                 <td>Toyota</td>
                 <td>Agya</td>
-              
                 <td>4</td>
                 <td>Sina</td>
-                <td>280000</td>
+                <td>280.000</td>
                 <td style="background-color: #f7933b;"><font color="white">Not Ready</font></td>
                 <td style="padding: 3px;"><a style="color: black" href="ubah_status_service.php"><button>Ubah</button></a></td>
               </tr>
