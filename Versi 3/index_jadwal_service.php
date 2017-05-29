@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Jadwal Service </title>
+  <title>Daftar Kendaraaan & Driver </title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
@@ -168,11 +168,12 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li class="active"><a href="jadwal_service_baru"><i class="fa fa-circle-o"></i>Home</a></li>
+            <li ><a href="jadwal_service_baru.php"><i class="fa fa-circle-o"></i>Home</a></li>
           </ul>
           <ul class="treeview-menu">
-            <li><a href="index_jadwal_service.php"><i class="fa fa-circle-o"></i>List</a></li>
+            <li class="active"><a href="index_jadwal_service  .php"><i class="fa fa-circle-o"></i>List</a></li>
           </ul>
+        </li>
         </li>
       </ul>
     </section>
@@ -182,162 +183,88 @@
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <h1>
-        Selamat Datang di <b>For</b>Rent!
-      </h1>
-    </section>
 
-    <!-- Main content -->
-    <section class="content">
-      <!-- Small boxes (Stat box) -->
-      <div class="row">
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-aqua">
-            <div class="inner">
-              <h3>150</h3>
+    <div class="box">
+            <!-- /.box-header -->
+            <div class="box-body">
+              <h2 style="color: black;">Daftar Kendaraan & Driver</h2>
+        <table id="example1" class="table table-bordered table-striped">
+          <thead>
+            <tr style="background: #C9C9C9;">
+              <th style="text-align: center;padding: 8px">Nopol</th>
+              <th style="text-align: center;padding: 8px">Merk</th>
+              <th style="text-align: center;padding: 8px">Jenis</th>
+              <th style="text-align: center;padding: 8px">Muatan (orang)</th>
+              <th style="text-align: center;padding: 8px">Driver</th>
+              <th style="text-align: center;padding: 8px">Harga Sewa (per hari)</th>
+              <th style="text-align: center;width: 130px">#</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="text-align: center;">
+              <td>B 510 NDA</td>
+              <td>Kia</td>
+              <td>Rio</td>
+              <td>5</td>
+              <td>Ario Bimo</td>
+              <td>250.000</td>
+              <td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr style="text-align: center;">
+              <td>B 4707 BAN</td>
+              <td>Honda</td>
+              <td>City</td> 
+              <td>4</td>
+              <td>Bimo Ario</td>
+              <td>250.000</td>
+              <td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr style="text-align: center;">
+              <td>L 1712 KL</td>
+              <td>Suzuki</td>
+              <td>Ertiga</td>
+              <td>6</td>
+              <td>Sumila</td>
+              <td>350.000</td>
+              <td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr style="text-align: center;">
+              <td>D 123 VE</td>
+              <td>Toyota</td>
+              <td>Innova</td>
+              <td>7</td>
+              <td>Faizul</td>
+              <td>400.000</td>
+              <td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr style="text-align: center;">
+              <td>W 120 SI</td>
+              <td>Toyota</td>
+              <td>Agya</td>
+              <td>4</td>
+              <td>Sina</td>
+              <td>280.000</td>
+              <td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
+            </tr>
+          </tbody>
+        </table>
 
-              <p>New Orders</p>
-            </div>
-            <div class="icon">
-              <i class="ion ion-bag"></i>
-            </div>
-            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
+        <div align="center">
+          <h1></h1>
+          <a href="tambah_data_armada.php" style="color: black"><button type="button">Tambah Data</button></a>
         </div>
-        <!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-green">
-            <div class="inner">
-              <h3>53<sup style="font-size: 20px">%</sup></h3>
-
-              <p>Bounce Rate</p>
-            </div>
-            <div class="icon">
-              <i class="ion ion-stats-bars"></i>
-            </div>
-            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-        </div>
-        <!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-yellow">
-            <div class="inner">
-              <h3>44</h3>
-
-              <p>User Registrations</p>
-            </div>
-            <div class="icon">
-              <i class="ion ion-person-add"></i>
-            </div>
-            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-        </div>
-        <!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-red">
-            <div class="inner">
-              <h3>65</h3>
-
-              <p>Unique Visitors</p>
-            </div>
-            <div class="icon">
-              <i class="ion ion-pie-graph"></i>
-            </div>
-            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-        </div>
-        <!-- ./col -->
-      </div>
-      <!-- /.row -->
-      <!-- Main row -->
-      <div class="row">
-        <!-- Left col -->
-        <section class="col-lg-7 connectedSortable">
-          <!-- Custom tabs (Charts with tabs)-->
-          <div class="nav-tabs-custom">
-            <!-- Tabs within a box -->
-            <ul class="nav nav-tabs pull-right">
-              <li class="active"><a href="#revenue-chart" data-toggle="tab">Area</a></li>
-              <li><a href="#sales-chart" data-toggle="tab">Donut</a></li>
-              <li class="pull-left header"><i class="fa fa-inbox"></i> Sales</li>
-            </ul>
-            <div class="tab-content no-padding">
-              <!-- Morris chart - Sales -->
-              <div class="chart tab-pane active" id="revenue-chart" style="position: relative; height: 300px;"></div>
-              <div class="chart tab-pane" id="sales-chart" style="position: relative; height: 300px;"></div>
-            </div>
-          </div>
-          <!-- /.nav-tabs-custom -->
-        </section>
-        <!-- /.Left col -->
-        <!-- right col (We are only adding the ID to make the widgets sortable)-->
-        <section class="col-lg-5 connectedSortable">
-          <!-- solid sales graph -->
-          <div class="box box-solid bg-teal-gradient">
-            <div class="box-header">
-              <i class="fa fa-th"></i>
-
-              <h3 class="box-title">Sales Graph</h3>
-
-              <div class="box-tools pull-right">
-                <button type="button" class="btn bg-teal btn-sm" data-widget="collapse"><i class="fa fa-minus"></i>
-                </button>
-                <button type="button" class="btn bg-teal btn-sm" data-widget="remove"><i class="fa fa-times"></i>
-                </button>
-              </div>
-            </div>
-            <div class="box-body border-radius-none">
-              <div class="chart" id="line-chart" style="height: 250px;"></div>
             </div>
             <!-- /.box-body -->
-            <div class="box-footer no-border">
-              <div class="row">
-                <div class="col-xs-4 text-center" style="border-right: 1px solid #f4f4f4">
-                  <input type="text" class="knob" data-readonly="true" value="20" data-width="60" data-height="60" data-fgColor="#39CCCC">
-
-                  <div class="knob-label">Mail-Orders</div>
-                </div>
-                <!-- ./col -->
-                <div class="col-xs-4 text-center" style="border-right: 1px solid #f4f4f4">
-                  <input type="text" class="knob" data-readonly="true" value="50" data-width="60" data-height="60" data-fgColor="#39CCCC">
-
-                  <div class="knob-label">Online</div>
-                </div>
-                <!-- ./col -->
-                <div class="col-xs-4 text-center">
-                  <input type="text" class="knob" data-readonly="true" value="30" data-width="60" data-height="60" data-fgColor="#39CCCC">
-
-                  <div class="knob-label">In-Store</div>
-                </div>
-                <!-- ./col -->
-              </div>
-              <!-- /.row -->
-            </div>
-            <!-- /.box-footer -->
           </div>
-          <!-- /.box -->
 
-        </section>
-        <!-- right col -->
-      </div>
-      <!-- /.row (main row) -->
-
-    </section>
-    <!-- /.content -->
-  </div>
-  <!-- /.content-wrapper -->
-  <footer class="main-footer">
-    <div class="pull-right hidden-xs">
-      <b>Version</b> 2.3.8
-    </div>
-    <strong>Copyright &copy; 2014-2016 <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> All rights
-    reserved.
-  </footer>f
   <div class="control-sidebar-bg"></div>
 </div>
 <!-- ./wrapper -->

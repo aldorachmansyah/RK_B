@@ -181,43 +181,40 @@
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <tbody>
-              
-                <td>B 510 NDA</td>
-                <br>
-                <td>Kia</td>
-                <br>
-                <td>Rio</td>
-                <br>
-                <td>5</td>
-                <br>
-                <td>Ario Bimo</td>
-                <br>
-                <td>250.000</td>
-                <br>
-                <td style="padding: 3px;"><a style="color: black" href="ubah_status_service.php"><button>Print</button></a></td>
-    </tbody>
-    
-
-        </section>
-        <!-- right col -->
-      </div>
-      <!-- /.row (main row) -->
-
-    </section>
-    <!-- /.content -->
+    <div class="box">
+            <!-- /.box-header -->
+            <div class="box-body">
+              <h2 style="color: black;">Kendaraan Terpilih</h2>
+        <table id="example1" class="table table-bordered table-striped">
+          <thead>
+            <tr style="background: #C9C9C9;">
+              <th style="text-align: center;padding: 8px">Nopol</th>
+              <th style="text-align: center;padding: 8px">Merk</th>
+              <th style="text-align: center;padding: 8px">Jenis</th>
+              <th style="text-align: center;padding: 8px">Muatan (orang)</th>
+              <th style="text-align: center;padding: 8px">Driver</th>
+              <th style="text-align: center;padding: 8px">Harga Sewa (per hari)</th>
+              <th style="text-align: center;width: 130px">#</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="text-align: center;">
+              <td>B 510 NDA</td>
+              <td>Kia</td>
+              <td>Rio</td>
+              <td>5</td>
+              <td>Ario Bimo</td>
+              <td>250.000</td>
+              <td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Print</button></a></td>
+            </tr>
+          </tbody>
+          
+        </table>
+            </div>
+            <!-- /.box-body -->
+          </div>
   </div>
   <!-- /.content-wrapper -->
-  <footer class="main-footer">
-    <div class="pull-right hidden-xs">
-      <b>Version</b> 2.3.8
-    </div>
-    <strong>Copyright &copy; 2014-2016 <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> All rights
-    reserved.
-  </footer>f
-  <div class="control-sidebar-bg"></div>
-</div>
 <!-- ./wrapper -->
 
 <!-- jQuery 2.2.3 -->
