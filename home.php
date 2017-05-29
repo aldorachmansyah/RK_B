@@ -95,7 +95,7 @@
 						</a>
 					</div>
 					<div class="col-md-4 daftar ">
-						<a href="Jadwal_rekap_baru.php">
+						<a href="Jadwal_service_baru.php">
 						<div class="tombol" style="height: 100px">
 							<!-- <img src=""> -->
 							<p class="font2" style="color: black;padding-top: 10px">Jadwal Service Kendaraan</p>

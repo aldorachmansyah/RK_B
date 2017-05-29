@@ -215,7 +215,7 @@
             <tr style="text-align: center;">
               <td>B 4707 BAN</td>
               <td>Honda</td>
-              <td>City</td>
+              <td>City</td> 
               <td>4</td>
               <td>Bimo Ario</td>
               <td>250.000</td>
