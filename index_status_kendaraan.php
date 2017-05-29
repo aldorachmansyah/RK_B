@@ -180,19 +180,15 @@
   </aside>
 
   <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
+    <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <h1 style="display:none;">
-        Selamat Datang di <b>For</b>Rent!
-      </h1>
-    </section>
 
-    <!-- Main content -->
-    <div>
-        <h2 style="color: black">Status Kendaraan</h2>
-        <table border="1" style="border-collapse: collapse;width: 100%;background-color: white">
-            <thead>
+    <div class="box">
+            <!-- /.box-header -->
+            <div class="box-body">
+              <h2 style="color: black;">Daftar Kendaraan & Driver</h2>
+        <table id="example1" class="table table-bordered table-striped">
+          <thead>
               <tr style="background: #C9C9C9;">
                 <th style="text-align: center;padding: 8px">Nopol</th>
                 <th style="text-align: center;">Merk</th>
@@ -265,16 +261,11 @@
                 <td style="padding: 3px;"><a style="color: black" href="ubah_status_service.php"><button>Ubah</button></a></td>
               </tr>
             </tbody>
-          </table>
-        <!-- <div class="col-md-4 daftar ">
-          <a href="penyewaan.php">
-          <div class="putih" style="height: 100px">
-            <img src="">
-            <p class="font2" style="padding-top: 20px">Penyewaan</p>
+        </table>
+            </div>
+            <!-- /.box-body -->
           </div>
-          </a>
-        </div> -->
-      </div>
+
   <div class="control-sidebar-bg"></div>
 </div>
 <!-- ./wrapper -->
