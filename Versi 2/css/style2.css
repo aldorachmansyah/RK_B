@@ -1,0 +1,222 @@
+@font-face {
+	font-family: "DINPro-Bold";
+	src: url(DINPro-Bold.ttf);
+}
+
+@font-face {
+	font-family: "DINPro-Light";
+	src: url(DINPro-Light.ttf);
+}
+
+body { 
+	background: #f1f4f7;
+	/*background-color: #000000;*/
+	-/*webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;*/
+}
+
+.navbar{
+	width: 100%
+	border-style: solid;
+	/*background-color: red;*/
+	position: fixed;
+	height: 60px;
+	padding: 15px 25px;
+}
+
+.badan{
+	padding: 5vw;
+}
+
+div{
+	/*border-style: solid;*/
+}
+
+.font1{
+	font-family: "DINPro-Light";
+}
+
+.font2{
+	font-family: "DINPro-Bold";
+}
+
+.font1, .font2{
+	color: white;
+}
+
+
+.logo{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+}
+
+.judul .atas{
+	font-size: 30px;
+}
+
+.judul .bawah{
+	margin-top: -7%;
+	font-size: 50px;
+}
+
+.garis{
+	border-bottom-style: solid;
+	border-bottom-color: white;
+	border-bottom-width: 2px;
+	margin-left: 29%;
+	margin-right: 29%;
+}
+
+.center{
+	text-align: center;
+}
+
+.paragraf{
+	padding-top: 5%;
+	padding-right: 5vw;
+	padding-left: 5vw;
+}
+
+.tombol{
+	border-style: none;
+	padding: 10px 50px;
+	font-size: 20px;
+	background-color: #F2B92A;
+
+	transition-property: transform, color;
+	transition-duration: 0.3s;
+	transition-timing-function: linear;
+}
+
+.jarak{
+	margin-top: 5%;
+}
+
+.tulisanKecil{
+	font-size: 12px;
+}
+
+.center .atas{
+	margin-top: 3%;
+}
+
+.center .bawah{
+	margin-top: -2%;
+}
+
+.tombol:hover{
+	background-color:white;
+	color: #F2B92A;
+	transform: scale(1.1);
+}
+
+.navbar a:hover{
+	text-decoration: none;
+	color: #F2B92A;
+}
+
+.center a:hover{
+	text-decoration: none;
+	color: #F2B92A;
+}
+
+.navbar a:hover .font2{
+	color: #F2B92A;
+}
+
+a.button {
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+
+	text-decoration: none;
+}
+
+.form-login{
+	margin-top: 18%;
+}
+
+.form-daftar{
+	margin-top: 7%;
+}
+
+input[type=text], input[type=password] {
+	width: 60%;
+	padding: 5px 8px;
+	box-sizing: border-box;
+	text-align:center;
+	color: #2D2D2C;
+	font-family: "DINPro-Bold";
+	
+	transition-property: width;
+	transition-duration: 0.3s;
+	transition-timing-function: linear;
+}
+
+input:focus{
+	width: 65%;
+}
+
+.putih{
+	background-color: #FFFFFF;
+	padding: 2% 2%;
+	opacity: 0.75;
+}
+
+.judul2{
+	font-size: 25px;
+}
+
+.judul3{
+	margin-top: -10px;
+	font-size: 15px;
+}
+
+.garis2{
+	margin-top: 1%;
+	border-bottom-style: solid;
+	border-bottom-color: white;
+	border-bottom-width: 1px;
+}
+
+.daftar{
+	margin-top: 5%;
+}
+
+.putih img{
+	width: 100%;
+}
+
+.putih .font2{
+	color: #2D2D2C;
+	margin-top: 4%;
+	font-size: 20px;
+}
+.putih .font1{
+	color: #2D2D2C;
+	margin-top: -1vw;
+	font-size: 17px;
+}
+
+#loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(192, 192, 192, 0.5);
+    background-image: url("http://i.stack.imgur.com/MnyxU.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#page 
+{
+	display: none;
+	background: #f1f4f7;
+}
