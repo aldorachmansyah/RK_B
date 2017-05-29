@@ -171,7 +171,7 @@
             <li class="active"><a href="penyewaan.php"><i class="fa fa-circle-o"></i>Home</a></li>
           </ul>
           <ul class="treeview-menu">
-            <li><a href=""><i class="fa fa-circle-o"></i>List</a></li>
+            <li><a href="index_penyewaan.php"><i class="fa fa-circle-o"></i>List</a></li>
           </ul>
         </li>
       </ul>
