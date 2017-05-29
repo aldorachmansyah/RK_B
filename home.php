@@ -111,14 +111,6 @@
 						</a>
 					</div>
 					<div class="col-md-4 daftar ">
-						<a href="notifikasi.php">
-						<div class="tombol" style="height: 100px">
-							<!-- <img src=""> -->
-							<p class="font2" style="color: black;padding-top: 20px">Notifikasi</p>
-						</div>
-						</a>
-					</div>
-					<div class="col-md-4 daftar ">
 						<a href="penyewaan.php">
 						<div class="tombol" style="height: 100px">
 							<!-- <img src=""> -->
