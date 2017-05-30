@@ -1,4 +1,4 @@
-ForRemt
+ForRent
 
 Rivaldo Alif R. - 5114100010
 
@@ -18,11 +18,11 @@ Actor:
 - Admin
 
 Menu yang terdapat di sistem:</br>
-1.daftar kendaraan dan driver.</br>
-2.status kendaraan.</br>
-3.jadwal service kendaraan.</br>
-4.jadwal rekap/pembayaran kendaraan. </br>
-5.penyewaan </br>
+1. Daftar kendaraan dan driver.</br>
+2. Status kendaraan.</br>
+3. Jadwal service kendaraan.</br>
+4. Jadwal rekap/pembayaran kendaraan. </br>
+5. Penyewaan </br>
 
 USE CASE
 
@@ -46,3 +46,6 @@ USE CASE
 2. Admin dapat melihat status kendaraan
 3. Admin dapat melihat jadwal service kendaraan
 4. Admin dapat melihat rekap pembayaran
+5. Admin dapat mengubah daftar armada
+6. Admin dapat menambah daftar armada
+
