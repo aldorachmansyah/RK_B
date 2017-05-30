@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Daftar Kendaraaan & Driver </title>
+  <title>Jadwal Service</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
@@ -55,43 +55,22 @@
         <span class="sr-only">Toggle navigation</span>
       </a>
 
-      <div class="navbar-custom-menu">
+       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
           <!-- Notifications: style can be found in dropdown.less -->
           <li class="dropdown notifications-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <i class="fa fa-bell-o"></i>
-              <span class="label label-warning">10</span>
+              <span class="label label-warning">1</span>
             </a>
             <ul class="dropdown-menu">
-              <li class="header">You have 10 notifications</li>
+              <li class="header">You have 1 notifications</li>
               <li>
                 <!-- inner menu: contains the actual data -->
                 <ul class="menu">
                   <li>
                     <a href="#">
-                      <i class="fa fa-users text-aqua"></i> 5 new members joined today
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-warning text-yellow"></i> Very long description here that may not fit into the
-                      page and may cause design problems
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-users text-red"></i> 5 new members joined
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-shopping-cart text-green"></i> 25 sales made
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-user text-red"></i> You changed your username
+                      <i class="fa fa-warning text-yellow"></i> Mobil dengan Nomor Polis B 4707 BAN perlu diservice
                     </a>
                   </li>
                 </ul>
@@ -115,20 +94,6 @@
                 </p>
               </li>
               <!-- Menu Body -->
-              <li class="user-body">
-                <div class="row">
-                  <div class="col-xs-4 text-center">
-                    <a href="#">Followers</a>
-                  </div>
-                  <div class="col-xs-4 text-center">
-                    <a href="#">Sales</a>
-                  </div>
-                  <div class="col-xs-4 text-center">
-                    <a href="#">Friends</a>
-                  </div>
-                </div>
-                <!-- /.row -->
-              </li>
               <!-- Menu Footer-->
               <li class="user-footer">
                 <div class="pull-left">
@@ -162,7 +127,7 @@
       <ul class="sidebar-menu">
         <li class="active treeview">
           <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Daftar Kendaraan & Driver</span>
+            <i class="fa fa-dashboard"></i> <span>Jadwal Service</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
@@ -171,7 +136,10 @@
             <li><a href="kendaraan_driver.php"><i class="fa fa-circle-o"></i>Home</a></li>
           </ul>
           <ul class="treeview-menu">
-            <li><a href="index_kendaraan_driver.php"><i class="fa fa-circle-o"></i>List</a></li>
+            <li><a href="index_km.php"><i class="fa fa-circle-o"></i>List KM</a></li>
+          </ul>
+          <ul class="treeview-menu">
+            <li><a href="index_kendala.php"><i class="fa fa-circle-o"></i>List Kendala</a></li>
           </ul>
         </li>
       </ul>
@@ -184,7 +152,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Form Ubah Data
+        Form Ubah Service
       </h1>
     </section>
     <script src="js/bootstrap-datepicker.js"></script>
@@ -195,43 +163,31 @@
        <form role="form">
           <div class="box-body">
             <div class="form-group">
-                <label>Tanggal Service:</label>
-
-                <div class="input-group date">
-                  <div class="input-group-addon">
-                    <i class="fa fa-calendar"></i>
-                  </div>
-                  <input type="text" class="form-control pull-right" id="datepicker">
-                </div>
-                <!-- /.input group -->
-              </div>
-            <div class="form-group">
               <label for="exampleInputEmail1">Nomor Polisi</label>
               <input type="text" class="form-control" id="exampleInputEmail1" placeholder="NoPol" disabled>
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail1">Merk</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Merk" disabled>
-            </div>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Jenis</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Jenis" disabled>
-            </div>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Muatan (Orang)</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Muatan (Orang)" disabled>
-            </div>
-            <div class="form-group">
               <label for="exampleInputEmail1">Driver</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Masukkan Nama Driver">
+              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Driver" disabled>
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail1">Harga Sewa</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Masukkan Harga Sewa">
+                  <label>Service</label>
+                  <select class="form-control">
+                    <option>Ya</option>
+                    <option>Tidak</option>
+                  </select>
+                </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Total KM Masuk</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Total KM Masuk">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Total KM Kaluar</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Total KM Keluar">
             </div>
           </div>
           <div class="box-footer">
-                <a href="index_jadwal_service.php" <button type="submit" class="btn btn-primary">Submit</button></a>
+                <a href="index_km.php" <button type="submit" class="btn btn-primary">Submit</button></a>
             </div>
         </form> 
       </div> 
@@ -239,13 +195,7 @@
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
-  <footer class="main-footer">
-    <div class="pull-right hidden-xs">
-      <b>Version</b> 2.3.8
-    </div>
-    <strong>Copyright &copy; 2014-2016 <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> All rights
-    reserved.
-  </footer>f
+
   <div class="control-sidebar-bg"></div>
 </div>
 <!-- ./wrapper -->

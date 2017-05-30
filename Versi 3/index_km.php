@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Daftar Kendaraaan & Driver </title>
+  <title>Jadwal Service </title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
@@ -61,21 +61,16 @@
           <li class="dropdown notifications-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <i class="fa fa-bell-o"></i>
-              <span class="label label-warning">2</span>
+              <span class="label label-warning">1</span>
             </a>
             <ul class="dropdown-menu">
-              <li class="header">You have 2 notifications</li>
+              <li class="header">You have 1 notifications</li>
               <li>
                 <!-- inner menu: contains the actual data -->
                 <ul class="menu">
                   <li>
                     <a href="#">
-                      <i class="fa fa-users text-aqua"></i> 2 Driver baru
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-warning text-yellow"></i> Mobil dengan Nomor Polis B 4707 BAN ganti supir
+                      <i class="fa fa-warning text-yellow"></i> Mobil dengan Nomor Polis B 4707 BAN perlu diservice
                     </a>
                   </li>
                 </ul>
@@ -132,17 +127,21 @@
       <ul class="sidebar-menu">
         <li class="active treeview">
           <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Daftar Kendaraan & Driver</span>
+            <i class="fa fa-dashboard"></i> <span>Jadwal Service</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="kendaraan_driver.php"><i class="fa fa-circle-o"></i>Home</a></li>
+            <li ><a href="jadwal_service_baru.php"><i class="fa fa-circle-o"></i>Home</a></li>
           </ul>
           <ul class="treeview-menu">
-            <li><a href="index_kendaraan_driver.php"><i class="fa fa-circle-o"></i>List</a></li>
+            <li class="active"><a href="index_km.php"><i class="fa fa-circle-o"></i>List KM</a></li>
           </ul>
+          <ul class="treeview-menu">
+            <li><a href="index_kendala.php"><i class="fa fa-circle-o"></i>List Kendala</a></li>
+          </ul>
+        </li>
         </li>
       </ul>
     </section>
@@ -152,51 +151,56 @@
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <h1>
-        Form Tambah Data
-      </h1>
-    </section>
 
-    <!-- Main content -->
-    <section class="content">
-      <div class="box box-primary">
-       <form role="form">
-          <div class="box-body">
-            <div class="form-group">
-              <label for="exampleInputEmail1">Nomor Polisi</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="NoPol">
+    <div class="box">
+            <!-- /.box-header -->
+            <div class="box-body">
+              <h2 style="color: black;">Daftar Kendaraan Service</h2>
+        <table id="example1" class="table table-bordered table-striped">
+          <thead>
+            <tr style="background: #C9C9C9;">
+              <th style="text-align: center;padding: 8px">Nopol</th>
+              <th style="text-align: center;padding: 8px">Driver</th>
+              <th style="text-align: center;padding: 8px">Service</th>
+              <th style="text-align: center;padding: 8px">Total KM masuk</th>
+              <th style="text-align: center;padding: 8px">Total KM keluar</th>
+              <th style="text-align: center;width: 130px">#</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="text-align: center;">
+              <td style="background-color:#b75f12" >B 510 NDA</td>
+              <td>Ario Bimo</td>
+              <td>Ya</td>
+              <td>2000</td>
+              <td>12000</td>
+              <td style="padding: 3px;"><a style="color: black" href="ubah_jadwal_service.php"><button>Ubah</button></a> <a style="color: black" href="#"></td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr style="text-align: center;">
+              <td style="background-color: #65f442;">B 4707 BAN</td>
+              <td>Bimo Ario</td>
+              <td>Tidak</td>
+              <td>1000</td>
+              <td>6000</td>
+              <td style="padding: 3px;"><a style="color: black" href="ubah_jadwal_service.php"><button>Ubah</button></a> <a style="color: black" href="#"></td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr style="text-align: center;">
+              <td style="background-color: #65f442;">W 120 SI</td>
+              <td>Sina</td>
+              <td>Tidak</td>
+              <td>2000</td>
+              <td>5000</td>
+              <td style="padding: 3px;"><a style="color: black" href="ubah_jadwal_service.php"><button>Ubah</button></a> <a style="color: black" href="#"></td>
+            </tr>
+          </tbody>
+        </table>
             </div>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Merk</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Merk">
-            </div>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Jenis</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Jenis">
-            </div>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Muatan (Orang)</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Muatan (Orang)">
-            </div>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Driver</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Masukkan Nama Driver">
-            </div>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Harga Sewa</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Masukkan Harga Sewa">
-            </div>
+            <!-- /.box-body -->
           </div>
-          <div class="box-footer">
-                <a href="index_kendaraan_driver.php"<button type="submit" class="btn btn-primary">Submit</button></a>
-            </div>
-        </form> 
-      </div> 
-    </section>
-    <!-- /.content -->
-  </div>
-  <!-- /.content-wrapper -->
 
   <div class="control-sidebar-bg"></div>
 </div>

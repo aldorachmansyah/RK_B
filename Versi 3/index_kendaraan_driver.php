@@ -172,7 +172,7 @@
           </thead>
           <tbody>
             <tr style="text-align: center;">
-              <td>B 510 NDA</td>
+              <td >B 510 NDA</td>
               <td>Kia</td>
               <td>Rio</td>
               <td>5</td>
@@ -183,7 +183,7 @@
           </tbody>
           <tbody>
             <tr style="text-align: center;">
-              <td>B 4707 BAN</td>
+              <td style="background-color: #65f442;">B 4707 BAN</td>
               <td>Honda</td>
               <td>City</td> 
               <td>4</td>
@@ -194,7 +194,7 @@
           </tbody>
           <tbody>
             <tr style="text-align: center;">
-              <td>L 1712 KL</td>
+              <td style="background-color: #65f442;">L 1712 KL</td>
               <td>Suzuki</td>
               <td>Ertiga</td>
               <td>6</td>

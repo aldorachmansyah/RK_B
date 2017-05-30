@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Daftar Kendaraaan & Driver </title>
+  <title>Jadwal Service</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
@@ -55,43 +55,22 @@
         <span class="sr-only">Toggle navigation</span>
       </a>
 
-      <div class="navbar-custom-menu">
+       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
           <!-- Notifications: style can be found in dropdown.less -->
           <li class="dropdown notifications-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <i class="fa fa-bell-o"></i>
-              <span class="label label-warning">10</span>
+              <span class="label label-warning">1</span>
             </a>
             <ul class="dropdown-menu">
-              <li class="header">You have 10 notifications</li>
+              <li class="header">You have 1 notifications</li>
               <li>
                 <!-- inner menu: contains the actual data -->
                 <ul class="menu">
                   <li>
                     <a href="#">
-                      <i class="fa fa-users text-aqua"></i> 5 new members joined today
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-warning text-yellow"></i> Very long description here that may not fit into the
-                      page and may cause design problems
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-users text-red"></i> 5 new members joined
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-shopping-cart text-green"></i> 25 sales made
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-user text-red"></i> You changed your username
+                      <i class="fa fa-warning text-yellow"></i> Mobil dengan Nomor Polis B 4707 BAN perlu diservice
                     </a>
                   </li>
                 </ul>
@@ -115,20 +94,6 @@
                 </p>
               </li>
               <!-- Menu Body -->
-              <li class="user-body">
-                <div class="row">
-                  <div class="col-xs-4 text-center">
-                    <a href="#">Followers</a>
-                  </div>
-                  <div class="col-xs-4 text-center">
-                    <a href="#">Sales</a>
-                  </div>
-                  <div class="col-xs-4 text-center">
-                    <a href="#">Friends</a>
-                  </div>
-                </div>
-                <!-- /.row -->
-              </li>
               <!-- Menu Footer-->
               <li class="user-footer">
                 <div class="pull-left">
@@ -171,7 +136,10 @@
             <li ><a href="jadwal_service_baru.php"><i class="fa fa-circle-o"></i>Home</a></li>
           </ul>
           <ul class="treeview-menu">
-            <li class="active"><a href="index_jadwal_service  .php"><i class="fa fa-circle-o"></i>List</a></li>
+            <li ><a href="index_km.php"><i class="fa fa-circle-o"></i>List KM</a></li>
+          </ul>
+          <ul class="treeview-menu">
+            <li class="active"><a href="index_kendala.php"><i class="fa fa-circle-o"></i>List Kendala</a></li>
           </ul>
         </li>
         </li>
@@ -187,85 +155,44 @@
     <div class="box">
             <!-- /.box-header -->
             <div class="box-body">
-              <h2 style="color: black;">Daftar Kendaraan & Driver</h2>
+              <h2 style="color: black;">Daftar Kendala</h2>
         <table id="example1" class="table table-bordered table-striped">
           <thead>
             <tr style="background: #C9C9C9;">
-              <th style="text-align: center;padding: 8px">Tanggal</th>
               <th style="text-align: center;padding: 8px">Nopol</th>
-              <th style="text-align: center;padding: 8px">Merk</th>
-              <th style="text-align: center;padding: 8px">Jenis</th>
-              <th style="text-align: center;padding: 8px">Muatan (orang)</th>
               <th style="text-align: center;padding: 8px">Driver</th>
-              <th style="text-align: center;padding: 8px">Harga Sewa (per hari)</th>
-              <th style="text-align: center;width: 130px">#</th>
+              <th style="text-align: center;padding: 8px">Kendala</th>
+              <th style="text-align: center;padding: 8px">Biaya</th>
             </tr>
           </thead>
           <tbody>
             <tr style="text-align: center;">
-              <td>31 Mei 2017</td>
               <td>B 510 NDA</td>
-              <td>Kia</td>
-              <td>Rio</td>
-              <td>5</td>
               <td>Ario Bimo</td>
-              <td>250.000</td>
-              <td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
-            </tr>
+              <td>Spion pecah</td>
+              <td>500.000</td>
+              </tr>
           </tbody>
           <tbody>
             <tr style="text-align: center;">
-              <td>1 Juni 2017</td>
               <td>B 4707 BAN</td>
-              <td>Honda</td>
-              <td>City</td> 
-              <td>4</td>
               <td>Bimo Ario</td>
-              <td>250.000</td>
-              <td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
+              <td>Lampu rem tidak nyala</td>
+              <td>300.000</td>
             </tr>
           </tbody>
           <tbody>
             <tr style="text-align: center;">
-              <td>2 Juni 2017</td>
-              <td>L 1712 KL</td>
-              <td>Suzuki</td>
-              <td>Ertiga</td>
-              <td>6</td>
-              <td>Sumila</td>
-              <td>350.000</td>
-              <td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr style="text-align: center;">
-              <td>2 Juni 2017</td>
-              <td>D 123 VE</td>
-              <td>Toyota</td>
-              <td>Innova</td>
-              <td>7</td>
-              <td>Faizul</td>
-              <td>400.000</td>
-              <td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr style="text-align: center;">
-              <td>3 Juni 2017</td>
               <td>W 120 SI</td>
-              <td>Toyota</td>
-              <td>Agya</td>
-              <td>4</td>
               <td>Sina</td>
-              <td>280.000</td>
-              <td style="padding: 3px;"><a style="color: black" href="ubah_data_armada.php"><button>Ubah</button></a> <a style="color: black" href="#"><button>Hapus</button></a></td>
+              <td>Rem blong</td>
+              <td>1.500.000</td>
             </tr>
           </tbody>
         </table>
-
         <div align="center">
           <h1></h1>
-          <a href="ubah_jadwal_service.php" style="color: black"><button type="button">Tambah Data</button></a>
+          <a href="tambah_data_service.php" style="color: black"><button type="button">Tambah Data</button></a>
         </div>
             </div>
             <!-- /.box-body -->

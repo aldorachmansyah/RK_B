@@ -189,7 +189,7 @@
             </div>
           </div>
           <div class="box-footer">
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <a href="index_kendaraan_driver.php" <button type="submit" class="btn btn-primary">Submit</button></a>
             </div>
         </form> 
       </div> 
