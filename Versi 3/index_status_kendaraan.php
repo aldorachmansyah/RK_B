@@ -172,7 +172,6 @@
                 <th style="text-align: center;padding: 8px">Driver</th>
                 <th style="text-align: center;padding: 8px">Harga Sewa (per hari)</th>
                 <th style="text-align: center;padding: 8px">Status</th>
-                <th style="text-align: center;width: 130px">#</th>
               </tr>
             </thead>
             <tbody>
@@ -184,7 +183,6 @@
                 <td>Ario Bimo</td>
                 <td>250.000</td>
                 <td style="background-color: #65f442;"><font color="white">Ready</font></td>
-                <td style="padding: 3px;"><a style="color: black" href="ubah_status_service.php"><button>Ubah</button></a></td>
               </tr>
             </tbody>
             <tbody>
@@ -196,7 +194,6 @@
                 <td>Bimo Ario</td>
                 <td>250.000</td>
                 <td style="background-color: #65f442;"><font color="white">Ready</font></td>
-                <td style="padding: 3px;"><a style="color: black" href="ubah_status_service.php"><button>Ubah</button></a></td>
               </tr>
             </tbody>
             <tbody>
@@ -208,7 +205,6 @@
                 <td>Sumila</td>
                 <td>350.000</td>
                 <td style="background-color:#b75f12"><font color="white">On Service</font></td>
-                <td style="padding: 3px;"><a style="color: black" href="ubah_status_service.php"><button>Ubah</button></a></td>
               </tr>
             </tbody>
             <tbody>
@@ -220,7 +216,6 @@
                 <td>Faizul</td>
                 <td>400.000</td>
                 <td style="background-color: #ff3535;"><font color="white">Booked</font></td>
-                <td style="padding: 3px;"><a style="color: black" href="ubah_status_service.php"><button>Ubah</button></a></td>
               </tr>
             </tbody>
             <tbody>
@@ -232,7 +227,6 @@
                 <td>Sina</td>
                 <td>280.000</td>
                 <td style="background-color: #f7933b;"><font color="white">Not Ready</font></td>
-                <td style="padding: 3px;"><a style="color: black" href="ubah_status_service.php"><button>Ubah</button></a></td>
               </tr>
             </tbody>
         </table>

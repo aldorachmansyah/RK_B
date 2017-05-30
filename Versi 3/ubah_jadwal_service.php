@@ -173,8 +173,9 @@
             <div class="form-group">
                   <label>Service</label>
                   <select class="form-control">
-                    <option>Ya</option>
-                    <option>Tidak</option>
+                    <option>Ready</option>
+                    <option>On Service</option>
+                    <option>Not Ready</option>
                   </select>
                 </div>
             <div class="form-group">
