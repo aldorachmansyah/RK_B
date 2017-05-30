@@ -59,20 +59,6 @@
 </head>
 <body>
 
-	<!-- <div class="topnav" id="myTopnav">
-	  <a href="home.php">Home</a>
-	  <a href="#news">News</a>
-	  <a href="#contact">Contact</a>
-	  <a href="#about">About</a>
-	  <a href="#about" style="margin-left: 850px">Logout</a>
-	</div> -->
-
-	<!-- <div class="container-fluid">
-		<div class="navbar">
-			<a href="index.html" class="logo font1"><b class="font2">ForRent</a>
-		</div>
-	</div><!-- /.container-fluid -->
-
 	<div id="page">
 		<div class="col-md-12 badan">
 			<div class="col-md-2"></div>

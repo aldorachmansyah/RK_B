@@ -61,37 +61,26 @@
           <li class="dropdown notifications-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <i class="fa fa-bell-o"></i>
-              <span class="label label-warning">10</span>
+              <span class="label label-warning">3</span>
             </a>
             <ul class="dropdown-menu">
-              <li class="header">You have 10 notifications</li>
+              <li class="header">You have 3 notifications</li>
               <li>
                 <!-- inner menu: contains the actual data -->
                 <ul class="menu">
                   <li>
                     <a href="#">
-                      <i class="fa fa-users text-aqua"></i> 5 new members joined today
+                      <i class="fa fa-users text-aqua"></i> Mobil A booked
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-warning text-yellow"></i> Very long description here that may not fit into the
-                      page and may cause design problems
+                      <i class="fa fa-users text-aqua"></i> Mobil B on service
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-users text-red"></i> 5 new members joined
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-shopping-cart text-green"></i> 25 sales made
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="fa fa-user text-red"></i> You changed your username
+                      <i class="fa fa-users text-aqua"></i> Mobil C ready
                     </a>
                   </li>
                 </ul>
@@ -115,20 +104,6 @@
                 </p>
               </li>
               <!-- Menu Body -->
-              <li class="user-body">
-                <div class="row">
-                  <div class="col-xs-4 text-center">
-                    <a href="#">Followers</a>
-                  </div>
-                  <div class="col-xs-4 text-center">
-                    <a href="#">Sales</a>
-                  </div>
-                  <div class="col-xs-4 text-center">
-                    <a href="#">Friends</a>
-                  </div>
-                </div>
-                <!-- /.row -->
-              </li>
               <!-- Menu Footer-->
               <li class="user-footer">
                 <div class="pull-left">
@@ -168,7 +143,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="status_kendaraan_.php"><i class="fa fa-circle-o"></i>Home</a></li>
+            <li><a href="status_kendaraan.php"><i class="fa fa-circle-o"></i>Home</a></li>
           </ul>
           <ul class="treeview-menu">
             <li class="active"><a href="index_status_kendaraan.php"><i class="fa fa-circle-o"></i>List</a></li>
