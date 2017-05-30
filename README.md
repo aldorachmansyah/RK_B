@@ -18,11 +18,11 @@ Actor:
 - Admin
 
 Menu yang terdapat di sistem:
-1.daftar kendaraan dan driver.
-2.status kendaraan.
-3.jadwal service kendaraan.
-4.jadwal rekap/pembayaran kendaraan.
-5.penyewaan
+1.daftar kendaraan dan driver.</br>
+2.status kendaraan.</br>
+3.jadwal service kendaraan.</br>
+4.jadwal rekap/pembayaran kendaraan. </br>
+5.penyewaan </br>
 
 USE CASE
 
