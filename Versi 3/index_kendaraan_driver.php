@@ -183,7 +183,7 @@
           </tbody>
           <tbody>
             <tr style="text-align: center;">
-              <td style="background-color: #65f442;">B 4707 BAN</td>
+              <td>B 4707 BAN</td>
               <td>Honda</td>
               <td>City</td> 
               <td>4</td>
@@ -194,7 +194,7 @@
           </tbody>
           <tbody>
             <tr style="text-align: center;">
-              <td style="background-color: #65f442;">L 1712 KL</td>
+              <td>L 1712 KL</td>
               <td>Suzuki</td>
               <td>Ertiga</td>
               <td>6</td>
