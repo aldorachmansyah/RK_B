@@ -17,7 +17,7 @@ Actor:
 - Inspeksi
 - Admin
 
-Menu yang terdapat di sistem:
+Menu yang terdapat di sistem:</br>
 1.daftar kendaraan dan driver.</br>
 2.status kendaraan.</br>
 3.jadwal service kendaraan.</br>
